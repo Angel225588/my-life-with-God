@@ -52,6 +52,72 @@ number I inflated.
 
 ---
 
+## The comparison he actually made
+
+He wasn't comparing Alba to nothing. He was comparing it to **a QR-code app at
+€89/month** — guests scan in their room, browse the menu, order, come down and
+collect. And *"he can customize many things."*
+
+**This is the single most useful thing he could have told me**, for three reasons.
+
+### 1. Budget is not the problem. This is now proven.
+
+He already pays €89/month for hotel software. He isn't saying *"I have no money
+for software."* He's saying *"that one is worth €89 and yours isn't worth €149."*
+
+That's not an affordability objection. It's a **justification** objection — and
+it confirms the measurement play below is the right response, using his own
+spending as the evidence.
+
+### 2. He's comparing a revenue tool to a cost tool
+
+| | The QR app | Alba |
+|---|---|---|
+| Who touches it | Guests | Staff |
+| What it does | Takes orders | Controls who eats |
+| How value shows up | **Visible** — orders appear, revenue goes up | **Invisible** — chaos that didn't happen |
+| Easy to see the value? | Yes, instantly | No, never — unless I count it |
+
+A tool that *makes* money sells itself. A tool that *saves* money has to be
+audited to be believed. That's the entire gap, and it's exactly why the monthly
+report isn't a nice-to-have — **it is the product's missing half.** Right now
+Alba delivers its value silently, and silent value gets priced at zero.
+
+The comparison is a menu against a ledger. Don't argue that the ledger is more
+exciting. Show what the ledger caught.
+
+**The one line for that conversation:**
+> *"That app helps guests spend more. Alba makes sure you get paid for what
+> they've already eaten. Let me show you last month."*
+
+### 3. "He can customize many things" is a real product signal
+
+That's not a throwaway. Directors want to feel ownership over the tool in their
+building. Alba is probably rigid where it could cheaply be flexible: hotel logo,
+colours, meal periods, category names, what the dashboard shows first, export
+format.
+
+**A day of customization work buys more perceived value than a month of
+architecture.** It's cheap, it's visible, and it's the exact thing he just told
+me he values. Put it right after the report.
+
+### What to do about the price, given all this
+
+Don't match €89. But don't hold €149 rigidly either — **trade it.**
+
+> **Offer: €129/month on annual prepay (€1,548), in exchange for a written case
+> study and two introductions to other properties.**
+
+That's a €20 concession that buys the two assets worth more than the money: a
+reference and a pipeline. It lets him win the negotiation, and it converts a
+discount into an asset instead of just losing revenue.
+
+If he still won't move after seeing the report, €99 is the floor — and only with
+the case study and introductions attached. Below that I'm working for free to
+hold a logo I can't even use publicly yet.
+
+---
+
 ## What "too expensive for its value" usually actually means
 
 Three possibilities. Find out which one before responding.

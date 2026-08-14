@@ -24,6 +24,17 @@ That is the whole business right now. Everything else is parked, not dead.
 property every day since March. See [`BRAND.md`](BRAND.md) and
 [`MARRIOTT.md`](MARRIOTT.md).
 
+## Where these files live
+
+Everything is on the branch **`claude/life-plan-business-priorities-e7ibb7`**,
+not on `main` — `main` doesn't exist yet, which is why the repo looks empty from
+the GitHub front page.
+
+👉 **https://github.com/Angel225588/my-life-with-God/tree/claude/life-plan-business-priorities-e7ibb7**
+
+Or read it locally: `git clone` the repo, then
+`git checkout claude/life-plan-business-priorities-e7ibb7`.
+
 ## How to use this repo
 
 | File | What it's for | When I open it |
@@ -34,6 +45,8 @@ property every day since March. See [`BRAND.md`](BRAND.md) and
 | [`PARKED.md`](PARKED.md) | Raizane, Vox, POD — and exactly when each wakes up | When I'm tempted |
 | [`IDEAS.md`](IDEAS.md) | Where new ideas go so they don't hijack today | Whenever one hits |
 | [`MARRIOTT.md`](MARRIOTT.md) | The €149 objection and how to answer it | **This week** |
+| [`PRODUCTION.md`](PRODUCTION.md) | 5 tasks to get Alba sellable, with prompts to paste | **This week** |
+| [`PROSPECTING.md`](PROSPECTING.md) | How to find hotels, and what to say in the lobby | Before every visit |
 | [`BRAND.md`](BRAND.md) | Why the product is called Alba | Once, then never |
 | [`CLICKUP.md`](CLICKUP.md) | What's in ClickUp, what's missing, the automations | Setup, then Fridays |
 

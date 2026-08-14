@@ -29,6 +29,8 @@ That is the whole business right now. Everything else is parked, not dead.
 | [`SCOREBOARD.md`](SCOREBOARD.md) | The numbers I'm allowed to care about | Every Friday |
 | [`PARKED.md`](PARKED.md) | Raizane, Vox, POD — and exactly when each wakes up | When I'm tempted |
 | [`IDEAS.md`](IDEAS.md) | Where new ideas go so they don't hijack today | Whenever one hits |
+| [`BRAND.md`](BRAND.md) | Naming the product — one day, timeboxed | Once, then never |
+| [`CLICKUP.md`](CLICKUP.md) | What's in ClickUp, what's missing, the automations | Setup, then Fridays |
 
 ## The rule this whole repo exists to enforce
 

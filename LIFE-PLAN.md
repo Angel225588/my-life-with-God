@@ -84,19 +84,58 @@ Narrow → win → widen. In that order, or none of them happen.
 > Your staff stop chasing paper. You see who ate, when, and how many — live, on
 > any screen. We set it up, we train your team, you never think about it again.
 
-**Pricing:**
+**And the line that does the real work:**
 
-| | Setup (one time) | Monthly |
-|---|---|---|
-| Founding 5 (locked forever) | €300 | €49 |
-| Standard, from #6 | €600 | €89 |
-| Group (3+ properties) | €1,200 | €69 / property |
+> *An international hotel brand runs their breakfast service on this every day.*
+
+(Use the name only once I have **written** permission. Big brands are strict, and
+using it without permission can cost me the account. Ask for it in writing —
+it's the single highest-value email I can send this month.)
+
+### How to price: value, not nerve
+
+Price off the value delivered, never off what feels comfortable to ask.
+For a property doing ~100 breakfasts a day:
+
+| | Per month |
+|---|---|
+| Staff time reconciling paper lists (~45 min/day, loaded cost) | ~€340 |
+| Uncaught covers — 2/day who shouldn't have eaten, at €18 | ~€1,080 |
+| **Value delivered** | **~€1,400** |
+
+Software prices at 10–20% of value delivered → **€140–280/month.**
+
+That table isn't just pricing. **It's the pitch.** I'm not selling a nicer
+interface for lists — I'm selling recovered revenue and returned staff hours. The
+interface is just how it gets delivered. Run this math live, with *their* numbers,
+in every demo.
+
+### The price list
+
+| Tier | Who | Setup (one time) | Monthly |
+|---|---|---|---|
+| Small | under 50 covers/day, B&B, guesthouse | €400 | €99 |
+| Standard | 50–150 covers/day | €700 | €179 |
+| Branded / large | 150+ covers, chain, multi-outlet | €1,200 | €299 |
+| Group | 3+ properties | negotiated | €149 / property |
+
+**Founding 5: 40% off monthly, locked for 24 months.** Not forever — a permanent
+discount poisons ARPU for the life of the account, and 24 months is already a
+serious gift.
 
 The setup fee is not greed — it's survival. It pays me *this month* while the
-subscriptions compound. A solo founder with only MRR starves for a year.
+subscriptions compound. A solo founder living on MRR alone starves for a year.
 
 **Founding customers pay.** Discounted, but paid. Free pilots produce polite
-lies; a €300 invoice produces the truth.
+lies; an invoice produces the truth.
+
+> **Earlier draft said €49/mo + €300 setup. That was wrong and it's corrected
+> above.** Those numbers came from market convention — €49 sits under the
+> "manager can approve it without asking anyone" threshold, and €300 is the
+> standard 6× onboarding ratio. They are the numbers to pick when you have *no
+> proof* and need someone, anyone, to say yes.
+>
+> I have proof. Marriott runs this daily. Price like it.
 
 ---
 
@@ -104,48 +143,78 @@ lies; a €300 invoice produces the truth.
 
 Target: **5,000/month.** Adjust currency to my market.
 
-At standard price, ARPU ≈ €89 → **56 properties.** That's a lot.
-So two levers make it reachable:
+At €179 average, that's **28 properties.** Not 56. Pricing correctly cut the
+mountain in half before I made a single extra sale — which is why the pricing
+conversation is worth more than a week of walk-ins.
 
-1. **Setup fees carry the near term.** 5 setups/month at €600 = €3,000/month in
-   cash while MRR is still small.
+Three levers:
+
+1. **Setup fees carry the near term.** 4 setups/month at €700 = €2,800/month in
+   cash while MRR is still building.
 2. **Raise ARPU with a second module** once 15+ properties are live — whatever
-   the customers themselves ask for most (housekeeping, incidents, stock,
-   shift notes). At €149 ARPU, 5K needs **34 properties**, not 56.
+   customers ask for most (housekeeping, incidents, stock, shift notes).
 3. **Groups are worth 5 singles for the same effort.** One 6-property chain is
-   3.5% of the goal from a single relationship.
+   ~18% of the goal from a single relationship. **This is the Marriott lever.**
 
 **The realistic path:**
 
-| Milestone | By | Live properties | MRR | + setup cash |
-|---|---|---|---|---|
-| First paid customer | 27 Aug 2026 | 1 | €49 | €300 |
-| Founding 5 done | 27 Sep 2026 | 5 | €245 | €1,500 |
-| Proof it's a business | 11 Nov 2026 | 12 | €800 | ~€4,000 total |
-| Half way | Feb 2027 | 25 | €2,000 | ongoing |
-| **Goal** | Jul–Sep 2027 | 34–50 | **€5,000** | — |
+| Milestone | By | Live properties | MRR |
+|---|---|---|---|
+| Marriott invoicing | Oct 2026 | 1 | €299 |
+| Founding 5 done | Nov 2026 | 5 | ~€900 |
+| Proof it repeats | Feb 2027 | 12 | ~€2,000 |
+| Half way | Apr 2027 | 16 | ~€2,700 |
+| **Goal** | Aug–Oct 2027 | 28–34 | **€5,000** |
 
-Roughly a year. That's not slow — that's what real is. Sixteen projects in
-fifteen months produced €0, so a year to 5K is infinitely faster than what I've
-been doing.
+About a year. That's not slow — that's what real looks like. Sixteen projects in
+fifteen months produced €0, so a year to 5K is infinitely faster than the pace
+I've been keeping.
 
-> Note: 5K gross is not 5K in my pocket. Taxes, tools, and Vercel come out
-> first. Write down the number I actually need to live, and target *that*.
+> Note: 5K gross is not 5K in my pocket. Taxes, tools, and hosting come out
+> first. Write down the number I actually need to live on, and target *that*.
+
+### The Marriott asset
+
+A global brand runs their daily breakfast service on my software. Most founders
+never get this. It's worth more than the next 40 cold calls, and it's fragile —
+so it gets handled first, deliberately:
+
+1. **Lock the commercial terms before October.** Price, what's included, how it
+   renews, who signs. In writing.
+2. **Get written permission to use the name.** Until it exists, I say *"an
+   international hotel brand,"* which is nearly as strong and carries zero risk.
+3. **Ask for a two-line testimonial and a 20-minute case study call.**
+4. **Ask for the introduction.** Other properties in the region, and whoever
+   above them handles multiple sites. Land and expand inside the chain — one
+   happy property is a warm door into ten.
+
+Nothing else in the first two weeks beats these four.
 
 ---
 
 ## 6. The 90-day arc
 
-### Days 1–14 — Sharpen and open the door (14–27 Aug)
+### Days 1–14 — Bank the Marriott asset, then open doors (14–27 Aug)
 
-- Rewrite the check-in landing page to say the offer above. One page. One hour.
-  No redesign.
-- Make a list of **60 hotels and restaurants** with breakfast service within
-  reach of me. Name, address, who's in charge.
-- Build a 4-minute demo I can do from a phone or tablet, half asleep.
-- **Walk into 20 of them.** Not email. Walk in, between 10am and noon when
-  breakfast service is over and the manager can breathe.
-- Goal: **1 paying founding customer.**
+In strict order. Nothing below moves until the one above it is done.
+
+1. **Lock Marriott's commercial terms for October.** Price, scope, renewal,
+   signature. Six weeks is not much time, and an unpriced customer in production
+   is a risk, not an asset.
+2. **Ask for written permission to use the name**, plus a two-line testimonial.
+3. **Ask for introductions** to other properties and to whoever sits above them.
+4. **Name + logo — one day, timeboxed.** Details in [`BRAND.md`](BRAND.md). Not
+   a project. One day.
+5. **Landing page.** One page saying the offer and the value math. One day. No
+   redesign, no new framework, no fourth version of anything.
+6. **Demo video.** Four minutes, screen recording, my voice. Ugly and shipped
+   beats beautiful and pending.
+7. **List 60 properties** with breakfast service within reach. Name, address,
+   who's in charge.
+8. **Walk into 20 of them**, 10am–noon, when service is done and the manager can
+   actually breathe.
+
+Goal: **Marriott priced and signed + 1 new paying customer.**
 
 ### Days 15–45 — Founding five (28 Aug – 27 Sep)
 
@@ -169,20 +238,35 @@ been doing.
 
 Content is not a separate project. It's the same project with a camera on.
 
-**One account. One voice. Whole person.** I am not going to run a business
-account and a faith account — that's two engines and I've already proven I can't
-feed two of anything. People buy from people, and the man who talks about God is
-the same man who fixes your breakfast list.
+### Two channels, one recording session
 
-**Cadence: 5 videos a week.** Filmed in one batch on Monday if that's easier.
+I want a place that is only for God, not God squeezed between two sales videos.
+That's right, and it's worth protecting. But two channels is how people end up
+feeding neither, so the split only works with a hard asymmetry:
 
-- **3 about the work** — a hotel problem, a thing I saw, a 30-second demo, a
-  customer story. Never "buy my app." Always "here's a problem you have."
-- **2 about the life** — what I read that morning, what God is teaching me, what
-  I got wrong last week. Honest, short, not preachy.
+**Channel 1 — the main one. The business, and me.** 4 posts a week.
+This is the engine. It pays for everything.
+- A hotel problem, something I saw on site, a 30-second demo, a customer story.
+- Never "buy my app." Always "here's a problem you have."
+- Faith shows up here as *life*, not as teaching — the way it does in real
+  conversation. I don't hide it and I don't preach it. Same man, whole person.
 
-**Rules so this doesn't eat the business:**
-- 45 minutes a day, maximum. It is the third block, never the first.
+**Channel 2 — the God channel. Only God.** **1 post a week. That's the ceiling,
+not the floor.**
+- Deeper, slower, no business, no call to action, nothing to sell.
+- **It costs almost nothing to feed**, because the input already exists: the one
+  line I write every morning after the Word. Seven lines a week becomes one
+  video. No extra thinking, no extra research.
+- **It has no metrics and no growth target for the first 12 months.** If I let
+  it compete with the business channel for attention, one of them dies — and it
+  won't be the one paying rent. It's an obedience project, not a growth project.
+  Numbers would only corrupt it anyway.
+
+**Both get filmed in the same Monday batch.** One session, one setup, five
+videos. Two channels, one engine. That's the only version of this that survives.
+
+**Rules so none of it eats the business:**
+- 45 minutes a day maximum. It is the third block of the day, never the first.
 - Never edit for more than 10 minutes. Bad lighting that ships beats a perfect
   video that doesn't.
 - Views are not the scoreboard. **Conversations started** is the scoreboard.

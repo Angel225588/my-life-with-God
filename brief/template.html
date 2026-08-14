@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 210mm; height: 297mm;
+    padding: 16mm 18mm;
+    color: #1a1a1a; background: #fff;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+    display: flex; flex-direction: column;
+  }
+  .head { display: flex; justify-content: space-between; align-items: baseline;
+          border-bottom: 1.5px solid #1a1a1a; padding-bottom: 4mm; }
+  .brand { font-size: 20pt; font-weight: 700; letter-spacing: -0.4pt; }
+  .brand span { color: #C8781E; }
+  .date { font-size: 10pt; color: #666; text-align: right; line-height: 1.4; }
+  .day { font-weight: 700; color: #1a1a1a; }
+
+  .number { margin-top: 9mm; text-align: center; }
+  .number .label { font-size: 8.5pt; letter-spacing: 2.4pt; text-transform: uppercase; color: #888; }
+  .number .val { font-size: 62pt; font-weight: 700; letter-spacing: -2pt; line-height: 1.05; margin-top: 1mm; }
+  .number .val em { font-style: normal; color: #C8781E; }
+  .number .sub { font-size: 9.5pt; color: #666; margin-top: 1mm; }
+
+  .mrr { margin-top: 8mm; }
+  .row { display: flex; justify-content: space-between; font-size: 9pt; color: #666; margin-bottom: 2mm; }
+  .row b { color: #1a1a1a; font-size: 10pt; }
+  .bar { height: 7px; background: #ececec; border-radius: 4px; overflow: hidden; }
+  .bar i { display: block; height: 100%; width: 0.6%; background: #C8781E; border-radius: 4px; }
+
+  h2 { font-size: 8.5pt; letter-spacing: 1.8pt; text-transform: uppercase;
+       color: #888; margin-bottom: 3mm; font-weight: 600; }
+  section { margin-top: 8mm; }
+  .rule { border-bottom: 1px solid #d4d4d4; height: 9mm; }
+  .rule + .rule { margin-top: 1mm; }
+  p { font-size: 10.5pt; line-height: 1.55; }
+  .priority { background: #FBF4EA; border-left: 3px solid #C8781E; padding: 4mm 5mm; }
+  .priority p { font-size: 11pt; }
+  .priority .why { font-size: 9.5pt; color: #6b6b6b; margin-top: 2mm; }
+  .note { font-size: 10pt; color: #444; line-height: 1.55; }
+
+  .verse { margin-top: auto; padding-top: 8mm; text-align: center; }
+  .verse p { font-size: 11.5pt; font-style: italic; color: #333; line-height: 1.5; }
+  .verse .ref { font-size: 8.5pt; letter-spacing: 1.4pt; text-transform: uppercase; color: #999; margin-top: 2.5mm; }
+
+  footer { margin-top: 7mm; border-top: 1.5px solid #1a1a1a; padding-top: 3.5mm;
+           display: flex; justify-content: space-between; font-size: 9pt; font-weight: 600; color: #1a1a1a; }
+</style>
+</head>
+<body>
+
+  <div class="head">
+    <div class="brand">Alba<span>.</span></div>
+    <div class="date">Friday 14 August 2026<br><span class="day">Day 1 of the plan</span></div>
+  </div>
+
+  <div class="number">
+    <div class="label">Conversations this week</div>
+    <div class="val">—<em>/10</em></div>
+    <div class="sub">Decision-makers who heard the offer and answered. Nothing else counts.</div>
+  </div>
+
+  <div class="mrr">
+    <div class="row"><span>Monthly recurring revenue</span><b>€0 &nbsp;/&nbsp; €5,000</b></div>
+    <div class="bar"><i></i></div>
+  </div>
+
+  <section>
+    <h2>Today's one outcome</h2>
+    <div class="rule"></div>
+    <div class="rule"></div>
+  </section>
+
+  <section>
+    <h2>Follow-ups due</h2>
+    <p class="note">Follow up every person you spoke to yesterday.<br>
+    Most sales are in the second contact.</p>
+  </section>
+
+  <section>
+    <h2>The current priority</h2>
+    <div class="priority">
+      <p><b>Pull the flagship account's usage data, then build the monthly value report.</b></p>
+      <p class="why">They called it too expensive for its value. That's a measurement
+      problem, not a price problem — and they've been using it daily for months.
+      Count what it did, then show them.</p>
+    </div>
+  </section>
+
+  <div class="verse">
+    <p>“Whatever you do, work at it with all your heart,<br>as working for the Lord, not for human masters.”</p>
+    <div class="ref">Colossians 3:23</div>
+  </div>
+
+  <footer>
+    <span>Sell before you build.</span>
+    <span>Finish before you start.</span>
+    <span>God before both.</span>
+  </footer>
+
+</body>
+</html>

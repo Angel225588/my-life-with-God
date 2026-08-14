@@ -88,9 +88,14 @@ Narrow → win → widen. In that order, or none of them happen.
 
 > *An international hotel brand runs their breakfast service on this every day.*
 
-(Use the name only once I have **written** permission. Big brands are strict, and
-using it without permission can cost me the account. Ask for it in writing —
-it's the single highest-value email I can send this month.)
+**I do not have permission to use the name — confirmed 14 Aug 2026.** So that
+sentence, exactly as written, is what goes on the landing page, in the demo
+video, in every email and every post. Not the brand name. Not their logo. Not
+"M——tt". The vague version does almost all the persuasive work with none of the
+risk, and prospects fill in the blank more generously than the truth would.
+
+Ask for written permission — it's a good email to send. But the plan does not
+wait on it, and nothing public uses the name until it arrives.
 
 ### How to price: value, not nerve
 
@@ -198,23 +203,37 @@ Nothing else in the first two weeks beats these four.
 
 In strict order. Nothing below moves until the one above it is done.
 
-1. **Lock Marriott's commercial terms for October.** Price, scope, renewal,
-   signature. Six weeks is not much time, and an unpriced customer in production
-   is a risk, not an asset.
-2. **Ask for written permission to use the name**, plus a two-line testimonial.
-3. **Ask for introductions** to other properties and to whoever sits above them.
-4. **Name + logo — one day, timeboxed.** Details in [`BRAND.md`](BRAND.md). Not
-   a project. One day.
-5. **Landing page.** One page saying the offer and the value math. One day. No
-   redesign, no new framework, no fourth version of anything.
-6. **Demo video.** Four minutes, screen recording, my voice. Ugly and shipped
+1. **Pull Marriott's usage data.** Months of live production data I have never
+   once looked at. Covers processed, days of continuous use, and above all the
+   **entitled-vs-attended delta** — the leakage number.
+2. **Build the monthly value report.** *"What Alba did for you"* — one page,
+   automatic: covers processed, staff hours saved, covers served that weren't on
+   the list and what they cost. Full reasoning in [`MARRIOTT.md`](MARRIOTT.md).
+   **This is the only thing I'm allowed to build this fortnight**, and it isn't
+   really a feature — it's the answer to *"too expensive for its value,"* for
+   every customer, forever.
+3. **Fix the two security tasks** already in the backlog: lock `/api/*`, and get
+   the Gemini DPA + Supabase RLS done. EU guest data. Non-negotiable before
+   selling to anyone else.
+4. **Talk to Marriott's F&B manager and breakfast supervisor** — the people who
+   actually use it — before going back to the director.
+5. **Go back to the director with the report.** Then the terms, in writing, before
+   October. Then name permission, testimonial, introductions.
+6. **Logo.** Wordmark for Alba. One hour. No icon, no mascot, no guidelines.
+7. **Landing page.** One page: the offer, the value math, a screenshot of the
+   report. One day. No redesign, no new framework, no fourth version.
+8. **Demo video.** Four minutes, screen recording, my voice. Ugly and shipped
    beats beautiful and pending.
-7. **List 60 properties** with breakfast service within reach. Name, address,
+9. **List 60 properties** with breakfast service within reach. Name, address,
    who's in charge.
-8. **Walk into 20 of them**, 10am–noon, when service is done and the manager can
-   actually breathe.
+10. **Walk into 20 of them**, 10am–noon, when service is done and the manager can
+    actually breathe.
 
 Goal: **Marriott priced and signed + 1 new paying customer.**
+
+> Note the reorder: the value report moved ahead of the logo and the landing
+> page. A director just told me he can't see the value. Building the thing that
+> shows it beats building the thing that decorates it.
 
 ### Days 15–45 — Founding five (28 Aug – 27 Sep)
 

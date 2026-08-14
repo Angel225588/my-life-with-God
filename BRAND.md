@@ -1,9 +1,17 @@
-# Naming the product — one day, not one project
+# The name: **Alba**
 
-**Timebox: one day.** Naming is creative, fun, and has no rejection in it, which
-makes it the most dangerous kind of work I can do — it *feels* like
-commercializing while producing zero revenue. One day. Then it's decided and I
-never reopen it.
+> **Decided 14 Aug 2026. Closed. Not reopened.**
+
+Dawn, in Spanish, Italian and Catalan. Breakfast-adjacent without being *about*
+breakfast, so it grows into full hotel operations — and eventually Raizane —
+without ever needing a rename. Two syllables, sayable in a noisy kitchen at 7am,
+means the same thing across every market I'd sell into.
+
+The rest of this file is the reasoning, kept so I don't relitigate it.
+
+**Timebox was one day.** Naming is creative, fun, and has no rejection in it,
+which makes it the most dangerous kind of work I can do — it *feels* like
+commercializing while producing zero revenue.
 
 ---
 
@@ -38,13 +46,15 @@ clarifying. Three strikes.
 | **Passe** — the kitchen pass | Real industry vocabulary. The pass is exactly where the list lives. Insiders would nod at it. | Confusing outside kitchens; French "passé" means past. |
 | **Tally** | Says precisely what it does — counting attendance. Clean English. | Boxes me into counting. Doesn't grow. |
 
-**Recommendation: Alba.** It's the only one that's warm, sayable everywhere, and
-doesn't cap the company at one feature.
+**Chosen: Alba.** It's the only one that's warm, sayable everywhere, and doesn't
+cap the company at one feature.
 
-## The one-day checklist
+## The checklist
 
-- [ ] Pick the name. Say it out loud ten times. Say it to two hotel people.
-- [ ] Check it means nothing bad in ES / FR / EN / IT.
+- [x] Pick the name. **Alba.**
+- [ ] Say it out loud to two hotel people. If they repeat it back correctly
+      without spelling it, it works.
+- [ ] Confirm it means nothing bad in ES / FR / EN / IT.
 - [ ] Buy the domain. `.com` if possible, `getX.com` or `.app` if not.
 - [ ] Basic trademark search in my market. Not a lawyer — just don't walk into
       an obvious collision.

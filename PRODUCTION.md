@@ -166,53 +166,90 @@ Write a test for each fix.
 
 ---
 
-## 4 — The monthly value report
+## 4 — The monthly report
 
-The one that makes money. See [`MARRIOTT.md`](MARRIOTT.md) for why this is the
-product's missing half rather than a feature.
+Reframed 24 Sep 2026 around guest experience and operations rather than cost
+savings — see [`REPORT.md`](REPORT.md) for why, and what each number rests on.
 
 ```
-Build an automated monthly value report for each hotel.
+Rebuild the monthly report around guest experience and operations —
+NOT cost savings.
 
-WHY: our software saves hotels money invisibly, and invisible value gets
-priced at zero. A director just told us we're "too expensive for the
-value" while using the product daily. This report is the answer, and it
-needs to work for every future customer too.
+WHY THIS CHANGED
+The first version led with money saved. That was wrong: it invites a
+price comparison, it gets squeezed at budget time, and half of it isn't
+observable by us anyway (payments live in Micros). This report is for a
+hotel operations director. Its job is to help him STAFF AND PREPARE
+CORRECTLY, and to show him where guest experience is at risk. Money is
+his conclusion to draw, not our claim to make.
 
-THE REPORT — one page, per hotel, per month:
-  - Covers processed this month, and total since they started
-  - Staff hours saved: covers x a configurable seconds-per-cover
-    (default 20s), shown as hours and as euros at a configurable
-    hourly rate
-  - THE KEY NUMBER: écarts — guests who appeared at breakfast with no
-    valid entitlement on file, and were flagged to reception. Count for
-    the month, and the POTENTIAL value at a configurable average
-    breakfast price. Make it the biggest thing on the page.
-    Word it as "up to €X in billing corrections — settlement is
-    recorded in Micros." We do not see payments or recoveries, and we
-    must never print a figure as though we do.
-  - Busiest service, and peak throughput in the busiest 15 minutes
-  - One line at the bottom: total estimated value delivered this month
-    vs what they pay us
+STEP 1 — AUDIT BEFORE YOU BUILD. Show me this before writing any code.
+For each metric below, tell me: can we derive it from what we store
+today, yes or no? If no, exactly what would we need to start storing?
+I need this list before anything else — it decides what ships this week.
 
-First, before building anything: query the existing production data and
-tell me what these numbers actually are for our live hotel, for every
-month we have. I want to see real figures before we design around them.
-If the entitled-vs-attended delta isn't currently derivable from what we
-store, say so immediately — that changes what we build first and it is
-the most important thing in this task.
+STEP 2 — THE METRICS, grouped by where they come from
 
-THEN:
-  - Generate it as a PDF, and as a page in the app
-  - Email it automatically on the 1st of each month
-  - Let me trigger one manually for any hotel and any month
-  - Make every assumption (seconds per cover, hourly rate, breakfast
-    price) editable per hotel, and show them on the report so the numbers
-    are transparent and arguable rather than magic
+A. Observed automatically (we should already have these)
+   - Attended: guests on the entitled list who showed up
+   - No-shows: entitled, did not show. Count AND rate
+   - Ecarts: showed up with no valid entitlement, flagged to reception.
+     Report as an OPERATIONAL accuracy number, not a revenue number
+   - Actual service start (first arrival) and end (last arrival),
+     against the planned window
+   - Peak: busiest 15-minute block, how many, and at what time
+   - Services covered, and any fallback to paper
 
-Do not invent or estimate any number we cannot derive from real data.
-If something isn't measurable yet, leave it out and tell me what we'd
-need to store to measure it.
+B. Entered by the manager — one number, one tap, per service
+   - How many staff were on duty
+   Build the tap. Without it, half of section C is impossible, so make
+   it the fastest interaction in the app.
+
+C. Derived — this is where the value is
+   - COVERS PER STAFF MEMBER AT PEAK. The headline. This is the number
+     that shows whether the team was set up to succeed or to survive
+   - Pressure blocks: how many 15-minute blocks exceeded a configurable
+     comfortable load per staff member. Use this INSTEAD of a staff
+     satisfaction survey — it is objective and needs no one to fill
+     anything in
+   - Planned vs actual service window: did we open late, run long
+   - Arrival curve: arrivals per 15 minutes across the service
+   - DAY-OF-WEEK AVERAGES, tracked across months
+
+STEP 3 — THE ARRIVAL CURVE
+A simple curve of arrivals in 15-minute buckets across the service,
+with the staff-on-duty level drawn across it. Where the curve goes
+above the staffing line is where guests waited. That single graphic is
+the whole argument — it shows the SHAPE of the rush, not just a total.
+Keep it plain: no 3D, no gradients, no decoration. It must be readable
+in five seconds on a printed page.
+
+STEP 4 — THE DAY-OF-WEEK PATTERN. The most valuable section.
+Average attendance and peak load by day of week, across every month we
+have. The point is predictability: if Wednesdays consistently run
+heavier than Mondays, that is a rostering decision the director can
+make for the rest of the year, and we are the only system in the
+building that can tell him.
+Show the trend across months so he can see it is a stable pattern and
+not one odd week. State the number of weeks the pattern is based on,
+so he can judge how much to trust it.
+
+STEP 5 — BUILD BOTH
+   - A screen in the app: filter by month and by service
+   - A one-page PDF for the monthly email, same numbers, print-ready
+
+RULES
+- Never print a number we did not observe. No estimates, no industry
+  averages, no extrapolation. If it matters and we cannot see it, tell
+  me what to store and leave it off the page
+- No euro figures in the headline. Money appears only if the director
+  asks, and then only as something he can verify in Micros
+- Print every assumption (comfortable load per staff member, the peak
+  window length) at the bottom of the page, and make them editable per
+  hotel. Numbers he can adjust are numbers he trusts
+- One page. If it does not fit, cut. Two pages is a report nobody reads
+
+Start with Step 1 and wait for me before building.
 ```
 
 ### How to send it — email integration

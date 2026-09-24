@@ -34,10 +34,63 @@ faith.
 
 ---
 
-## The executive report — one page, one number
+## The reframe — operations, not savings (24 Sep 2026)
 
-For the operations director. He gives it five seconds, then either repeats the
-number in his own meeting or forgets it. Design for that, and nothing else.
+> **Leading with money was a mistake, and it's corrected below.**
+>
+> A cost report gets read by finance and squeezed at budget time. It also invites
+> the exact comparison already lost once — *"the QR app costs €89."* An
+> operations and guest-experience report gets read by the operations director and
+> **acted on**, and it's weighed against the cost of one bad Wednesday rather
+> than against another app.
+>
+> It also sidesteps the Micros problem entirely. Attendance, no-shows, peak load,
+> service windows, staffing — all observable, or one tap from a manager. Nothing
+> to hedge, no revenue to claim.
+
+**The new headline is not a number, it's a decision:** was the team set up to
+succeed, and which days will need more people next month.
+
+| Measure | Source |
+|---|---|
+| Attended / no-show, count and rate | Observed |
+| Écarts — as an *accuracy* number, not a revenue one | Observed |
+| Actual service start and end vs planned | Observed |
+| Peak: busiest 15 minutes, and when | Observed |
+| **Staff on duty** | One tap per service, by the manager |
+| **Covers per staff member at peak** ← the headline | Derived |
+| Pressure blocks above a comfortable load | Derived |
+| Arrival curve, 15-minute buckets | Derived |
+| **Day-of-week pattern across months** ← the planning payload | Derived |
+
+**Don't survey staff satisfaction.** Subjective, slow, and easy for a director to
+wave away. Measure the *conditions* instead — how many 15-minute blocks ran above
+a comfortable covers-per-staff load. Objective, free, and much harder to dismiss.
+
+**The single graphic that carries the whole argument:** the arrival curve with the
+staffing level drawn across it. Where the curve rises above the line is where
+guests waited. Everything else on the page is supporting evidence.
+
+**The most valuable section is the day-of-week pattern.** If Wednesdays run
+consistently heavier than Mondays across six months, that's a rostering decision
+for the rest of the year — and Alba is the only system in the building that can
+say it. Always print how many weeks the pattern rests on, so he can judge how far
+to trust it.
+
+The paste-ready prompt is task 4 in [`PRODUCTION.md`](PRODUCTION.md).
+
+The line for the meeting, in his own terms:
+
+> *"We don't want to sacrifice our reputation because we didn't want to invest.
+> This tells you which Wednesdays need more people — before the guests find out."*
+
+---
+
+## The earlier version — money-led
+
+Kept because the écart wording is still right whenever money does come up, and
+because the discipline about unobservable numbers applies to every version of
+this report.
 
 ### The headline
 

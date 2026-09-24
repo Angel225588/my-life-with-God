@@ -145,12 +145,21 @@ then the honest answer is a lower tier — not a wounded argument.
 ### Step 1 — Pull the data I already have (this week)
 
 Alba has been running daily in a live hotel for months. That is a dataset most
-founders would pay for, and I've never looked at it. From the database:
+founders would pay for. From the database:
 
 - Total covers processed, and over how many days
 - Days of continuous use without falling back to paper
-- **Entitled list vs. actual attendance — the delta.** This is the money.
+- **Écarts — guests who appeared at breakfast with no valid entitlement on file,
+  flagged to reception.** This is the number. It is the one thing Alba observes
+  that nothing else in the hotel does.
 - Peak throughput: how many guests in the busiest 15 minutes
+
+> **What Alba cannot see:** payments (Micros), revenue recovered from an écart
+> (Micros), and anyone who ate without ever being on a list (nobody sees this).
+> Report the écart count and the *potential* value, and point at Micros for
+> confirmation. See [`REPORT.md`](REPORT.md). Never put a recovered-revenue
+> figure on the page — one invented number makes every other number suspect, and
+> he knows exactly which system holds that data.
 
 ### Step 2 — Build the one feature worth building right now
 

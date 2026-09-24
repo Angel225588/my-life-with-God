@@ -184,10 +184,13 @@ THE REPORT — one page, per hotel, per month:
   - Staff hours saved: covers x a configurable seconds-per-cover
     (default 20s), shown as hours and as euros at a configurable
     hourly rate
-  - THE KEY NUMBER: covers served that were NOT on the entitled list —
-    count, and value at a configurable average breakfast price.
-    This is money they were losing before us. Make it the biggest thing
-    on the page.
+  - THE KEY NUMBER: écarts — guests who appeared at breakfast with no
+    valid entitlement on file, and were flagged to reception. Count for
+    the month, and the POTENTIAL value at a configurable average
+    breakfast price. Make it the biggest thing on the page.
+    Word it as "up to €X in billing corrections — settlement is
+    recorded in Micros." We do not see payments or recoveries, and we
+    must never print a figure as though we do.
   - Busiest service, and peak throughput in the busiest 15 minutes
   - One line at the bottom: total estimated value delivered this month
     vs what they pay us

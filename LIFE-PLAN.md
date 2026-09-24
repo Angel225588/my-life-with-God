@@ -105,10 +105,16 @@ For a property doing ~100 breakfasts a day:
 | | Per month |
 |---|---|
 | Staff time reconciling paper lists (~45 min/day, loaded cost) | ~€340 |
-| Uncaught covers — 2/day who shouldn't have eaten, at €18 | ~€1,080 |
-| **Value delivered** | **~€1,400** |
+| **Écarts caught** — guests at breakfast with no valid entitlement on file, flagged to reception the same morning | ~40/month, **up to €720** in billing corrections at €18 |
+| **Observed value** | **~€1,000** |
 
 Software prices at 10–20% of value delivered → **€140–280/month.**
+
+> **Say "up to," and say where to verify it.** Alba sees the écart; Micros holds
+> the settlement. Claiming recovered revenue we can't observe would be inventing
+> a number in front of someone who knows which system holds it. See
+> [`REPORT.md`](REPORT.md) — this correction replaces an earlier version of this
+> table that assumed we could see uncaught covers. We can't.
 
 That table isn't just pricing. **It's the pitch.** I'm not selling a nicer
 interface for lists — I'm selling recovered revenue and returned staff hours. The

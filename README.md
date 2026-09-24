@@ -48,6 +48,7 @@ Or read it locally: `git clone` the repo, then
 | [`REPORT.md`](REPORT.md) | What the monthly report can honestly measure | **Before October** |
 | [`BEO-ANALYSIS.md`](BEO-ANALYSIS.md) | What the real BEO taught us — the contradiction feature | **Before October** |
 | [`ALBA-EVENTS.md`](ALBA-EVENTS.md) | The BEO problem — module two, and how to pitch it in October | **Before October** |
+| [`PROMPTS.md`](PROMPTS.md) | Copy-paste prompts for the Alba codebase session | **Whenever building** |
 | [`PRODUCTION.md`](PRODUCTION.md) | 5 tasks to get Alba sellable, with prompts to paste | **This week** |
 | [`PROSPECTING.md`](PROSPECTING.md) | How to find hotels, and what to say in the lobby | Before every visit |
 | [`BRAND.md`](BRAND.md) | Why the product is called Alba | Once, then never |

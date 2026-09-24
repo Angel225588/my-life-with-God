@@ -38,6 +38,11 @@ questions have a date by which they get decided.
 | D25 | 25 Sep | **Voice lives only in the Alba chat.** Screens are for glancing and tapping, with no microphone anywhere else. The chat takes typing, voice messages and calls; voice by ElevenLabs. Alba answers at once, but every change goes through a confirm card that says who gets told, and lands in Activité with undo. Allergy changes are always confirmed as text. The chat joins V1; voice goes live after the kitchen test. | One place to talk means one safety net, and a screen that works without the chat. | `SCREENS.md` |
 | D26 | 25 Sep | **Every screen answers one question faster than a phone call, or it goes.** Agent, dire ce qui change and l'appel merge into one Alba chat; Cuisine and Commercial homes merge into Mes tâches / Calendrier variants; Mise en route joins V1. | Fewer screens, same skeleton, faster to learn. | `SCREENS.md` |
 | D27 | 25 Sep | **The real Events app starts now**, in a new **private** repo `alba`, on **fictional data only**, alongside the paper test (which still decides V1's go/no-go, Q2). Same stack as the breakfast app; static export so the PWA and the Capacitor store apps share one code path. v0.1 = calendar, timeline, one task template, my tasks, Alba chat (typed), upload sheet. | Momentum without risking real guest data or the live breakfast app. | `alba/ROADMAP.md` |
+| D28 | 25 Sep | **Doers land on Mes tâches** (Banquet, Cuisine, Restaurant, Technique); Commercial, Direction, Réception land on Calendrier. Rows show *my* deadline, not the service time. Answers Q3. | Saves 2 taps and ~8 s every time a doer opens the app. | `alba/docs/SPEC.md` §2 |
+| D29 | 25 Sep | **Hand off from the list**: the current task in Mes tâches carries its hand-off button. | Hand-offs happen with full hands, after the work. | SPEC §3 |
+| D30 | 25 Sep | **"À décider", one named decider, one tap.** Pre-extracted answers; the decider taps, everyone else sees *attend Élise* and can *Relancer* or ask Alba. Replaces the wording *à trancher* (D17/D21) — a kitchen verb for slicing. | Closes the loop the product is sold on; removes the "who decides?" contradiction. | SPEC §4 |
+| D31 | 25 Sep | **A change to my own work stays until I tap Vu**; the sender sees who has seen it. Refines D17 (the 3 s toast stays for other people's news). Built after v0.2. | Missed changes are the real incident. | SPEC §5 |
+| D32 | 25 Sep | **One visual system**: 22 colour tokens (muted #6F6862 is the text floor), 6 type sizes with a 13 px floor, 48 px targets in tasks, one button family, dark mode, self-hosted fonts, Alba glyph = sunrise arc (not a star). Primary contact moves into the task hero (refines D23 zone order). | ~250 contrast failures and 30 font sizes made it busy and hard to read at arm's length. | SPEC §7 |
 | D24 | Jun | **Positioning: "one app for hotel ops"** — sell the ecosystem, deliver in modules (land and expand). | Same thesis as Alba → Raizane. | ClickUp (Stratégie) |
 
 ## To decide — with a date
@@ -46,7 +51,7 @@ questions have a date by which they get decided.
 |---|---|---|---|
 | Q1 | 30 Sep | **Who signs the DPA** — the property, the management company, or the brand? | Ask the hotel; blocks the DPA and the breach procedure |
 | Q2 | 3 Oct | **Go / no-go on Events V1** after the paper test | Aymard's reaction: "can I have this next week too?" |
-| Q3 | 3 Oct | **Do kitchen and restaurant need the calendar**, or only their own list? | Before V1 build starts |
+| ~~Q3~~ | ~~3 Oct~~ | ~~Do kitchen and restaurant need the calendar?~~ **Answered by D28.** | — |
 | Q4 | 13 Oct | **Comfortable load per staff member** | The director sets it in the meeting |
 | Q5 | 17 Oct | **Domain, and is the price shown on the site?** | Before the landing page ships |
 | Q6 | 31 Oct | **Events price** (hypothesis €349–499 with breakfast) and add-on structure | After the October meeting |

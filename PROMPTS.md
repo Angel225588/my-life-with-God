@@ -36,6 +36,62 @@ Before we stop, close the session properly.
 
 ---
 
+## R · For the report session — **paste this into that session** (25 Sep)
+
+```
+Status check, then two jobs, in this order. Read CLAUDE.md first.
+
+WHERE WE ARE (verify, don't trust me):
+- Production (main) stops at 31 Aug (#6, API security). Everything on
+  claude/hotel-value-report-monthly-n4bmjv since then — the value
+  report, the month ledger, the roster-expected ledger, /legal — is NOT
+  in production.
+- So the live tablet still deletes at 30 days and records no day
+  ledger. Every day since 31 Aug is lost from the weekday pattern.
+
+0. TELL ME FIRST, in a short table: what is on main vs this branch;
+   how many days of data the production tablet holds right now; what
+   would merge cleanly; what is risky.
+
+1. SHIP COLLECTION ONLY — today if safe. Collection, not the screen:
+   - day ledger, one record per service, NO names, NO room numbers
+   - backfill from the days still on the tablet (say how many you got)
+   - staff count asked at the START of service, a number only
+   - two planned windows (weekday / weekend), window saved with each day
+   - comfortable load per staff: a setting with NO default
+   - écart payment prompt: no pre-selected "Chambre", écart cases only
+   - feel check: optional, monthly average only, never per day/person
+   - a `service` key on each record (Events will add several a day)
+   Deploy after service, never before a Wednesday. Keep the old path as
+   fallback. Do NOT ship the old money-led report screen with it.
+   Stay local-only: no server store, no sync, no email with guest data
+   until the DPA is signed.
+
+2. THEN THE REPORT — operations, not savings:
+   - headline: covers per staff member at peak (blank + explanation
+     while comfortable load is unset)
+   - arrival curve per 15 min with the staffing line in covers
+   - servi / présent non servi / absent
+   - day-of-week averages, always labelled "basé sur N semaines"
+   - never print a number we did not observe; no euros in the headline;
+     assumptions printed at the bottom, editable; one printed page
+   Design reference: the "Rapport mensuel" board on the canvas
+   https://claude.ai/artifact/VC8YJiF7AuMtEeNz5quTFB
+   Keep other UI changes minimal: every check-in screen is being put on
+   that canvas for a full UX redesign — don't redesign in parallel.
+
+3. FOR THE OCTOBER MEETING: generate the report from the real
+   collected data. Lead with the arrival curve, then the three-way
+   split, then the peak. Show me the page before anyone else sees it.
+
+CLOSE THE SESSION with the end-of-session routine: docs/DEVLOG.md
+entry, then in ClickUp Imarketin › 🌅 Alba: a card in
+"📓 Journal de dev", decisions in "📌 Décisions", new tasks with a due
+date in "🍳 Petit-déjeuner — en production".
+```
+
+---
+
 ## 1 · Ship data collection to production — **paste this now**
 
 > Urgent because nothing is collecting. The live tablet deletes at 30 days and

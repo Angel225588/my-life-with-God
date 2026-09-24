@@ -46,6 +46,7 @@ Or read it locally: `git clone` the repo, then
 | [`IDEAS.md`](IDEAS.md) | Where new ideas go so they don't hijack today | Whenever one hits |
 | [`MARRIOTT.md`](MARRIOTT.md) | The €149 objection and how to answer it | **Before October** |
 | [`REPORT.md`](REPORT.md) | What the monthly report can honestly measure | **Before October** |
+| [`BEO-ANALYSIS.md`](BEO-ANALYSIS.md) | What the real BEO taught us — the contradiction feature | **Before October** |
 | [`ALBA-EVENTS.md`](ALBA-EVENTS.md) | The BEO problem — module two, and how to pitch it in October | **Before October** |
 | [`PRODUCTION.md`](PRODUCTION.md) | 5 tasks to get Alba sellable, with prompts to paste | **This week** |
 | [`PROSPECTING.md`](PROSPECTING.md) | How to find hotels, and what to say in the lobby | Before every visit |

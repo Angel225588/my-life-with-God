@@ -67,10 +67,9 @@ everywhere, and the agent is the hardest thing to build well.
 1. **Alba always opens Marine's conversation**, from whichever screen you tap the
    star, and closing it returns to the restaurant. The canvas cannot remember
    where you came from; the product must. *Build note, not a design flaw.*
-2. **"Accueil" (Bonjour Aymard) is one person's splash sitting in the shared
-   row.** Recommendation: drop it as a separate screen. Its three numbers and the
-   "2 incohérences" line become the top of the calendar. One less tap every
-   morning.
+2. ~~**"Accueil" (Bonjour Aymard) is one person's splash sitting in the shared
+   row.**~~ **Done:** dropped. Its numbers and the "2 à trancher" line are the top
+   of the V1 calendar. See [`V1.md`](V1.md).
 3. **Kitchen and Restaurant don't have the Calendrier | Mes tâches tabs** the
    others share. Kitchen now has the bottom bar; Restaurant's bottom belongs to
    the composer. Decide whether those two roles need the calendar at all.

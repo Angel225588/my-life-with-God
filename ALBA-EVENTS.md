@@ -104,6 +104,48 @@ quietly stop opening.
 
 ---
 
+## The screen pattern — same skeleton for everyone
+
+Four screens, identical for every role. What changes is **what fills them**, never
+the shape.
+
+| # | Screen | Same for everyone | Differs by role |
+|---|---|---|---|
+| 1 | **Accueil** | Date, greeting, today in three numbers, one primary action | Which numbers matter; the action (Aymard: *Déposer un BEO*) |
+| 2 | **Calendrier** | Day strip, calendar icon for any date, events listed per day | Which events are shown first |
+| 3 | **Chronologie** (l'événement) | The full day, every service, in time order | **Mine highlighted, others greyed** — same list, different emphasis |
+| 4 | **Tâche** | Status, details, requirements, allergies, activity, comments | Which requirements appear: quantities for the kitchen, equipment for AV, covers for the restaurant |
+
+**Nobody gets a screen someone else doesn't have.** One layout to design, one to
+build, one to explain to a new starter — and when two people are on the phone,
+they are looking at the same thing.
+
+## The shared components
+
+The pieces that repeat, so they're built once and never redrawn:
+
+| Component | Where | Rule |
+|---|---|---|
+| **Allergy card** | Tâche · Cuisine · Restaurant | Red, at the top, content always visible. The button only **records** that someone read it, and gates the next action |
+| **Mine / not mine row** | Chronologie, Mes tâches | Mine: white, solid left bar, full contrast. Theirs: flat grey, department named. Never colour alone |
+| **Status** | Everywhere | Dot **and** word. Green = Fait, amber = En cours, grey = À faire. Green means *only* that — never "mine" |
+| **Menu block** | Restaurant · Cuisine | Course, plate count, and the constraint attached to **the dish it affects** |
+| **Quantity tile** | Cuisine · Tâche | Icon, number, item, and its constraint underneath |
+| **Say-what-happened bar** | Restaurant, later everywhere | Dictate or type; Alba proposes; a human confirms |
+| **Activity log** | Every screen | Top-right clock button. Reading at the top, acting at the bottom |
+
+### Two rules that decide the rest
+
+**Safety information is never behind a tap.** The allergy card shows everything
+immediately. The button exists to record the read, not to reveal it. If the one
+time someone doesn't tap is the time a guest is harmed, the design failed.
+
+**Alba raises conflicts as questions, never resolves them silently.** It knows a
+constraint and it knows a dish — so when the Caesar has parmesan and a guest is
+*sans fromage*, it says so. Where it isn't certain (anchovies in the dressing?) it
+prints **à vérifier** rather than guessing. Right nine times and wrong once is
+worse than asking every time.
+
 ## The build order
 
 ### V0 — this week, no code

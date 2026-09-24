@@ -91,3 +91,53 @@ fait qu'une app semble bien faite plutôt qu'imitée.
 4. Capacitor + push natif + fiches store. (3 à 5 jours)
 
 Le premier hôtel peut démarrer après l'étape 1.
+
+## Les comptes — les liens directs
+
+| | Lien | Prix |
+|---|---|---|
+| Google Play Console | https://play.google.com/console/signup | 25 $ une fois |
+| Apple Developer | https://developer.apple.com/programs/enroll/ | 99 €/an |
+| Numéro D-U-N-S (gratuit) | https://developer.apple.com/enroll/duns-lookup/ | 0 € |
+
+La page Google ne se trouve pas depuis le Play Store — il faut y aller par ce lien.
+
+### Individuel ou société : la question à trancher avant de payer
+
+**Prendre société, pas individuel.** Deux raisons.
+
+1. **Google bloque les comptes personnels.** Un compte individuel ouvert depuis fin
+   2023 doit faire tourner un test fermé avec **12 testeurs pendant 14 jours de
+   suite** avant d'avoir le droit de publier en production. Un compte société en
+   est dispensé. (À revérifier sur la page — Google bouge ces règles.)
+2. **Ce que voit le client.** En individuel, l'App Store affiche votre nom
+   personnel comme vendeur. En société, il affiche l'entreprise. Devant un
+   directeur d'hôtel, ce n'est pas cosmétique.
+
+**Le D-U-N-S est le chemin critique** : gratuit, quelques jours à deux semaines, et
+il débloque le compte société **des deux côtés**. À demander en premier, avant même
+de payer.
+
+## « C'est une web app qu'on dépose, ou une vraie app ? »
+
+**Une vraie app.** Pas un raccourci, pas un marque-page. Capacitor produit un vrai
+`.ipa` (iOS) et un vrai `.aab` (Android) : des binaires installés depuis le store,
+avec une icône, présents dans le sélecteur d'apps, qui fonctionnent hors ligne.
+
+Dedans :
+
+- vos écrans, **embarqués comme fichiers dans l'app** — pas chargés depuis un site,
+  donc ça ouvre instantanément et ça marche sans réseau ;
+- un pont qui laisse ce code appeler **le vrai téléphone** : appareil photo pour le
+  BEO, notifications par les systèmes d'Apple et de Google, fichiers, vibration.
+
+L'image : une voiture. Ce qu'on a dessiné, c'est la carrosserie, le tableau de bord,
+les sièges. Capacitor est le châssis — il ne redessine pas l'intérieur, il rend le
+véhicule homologué.
+
+**Ce qu'Apple contrôle** : la règle 4.2 (« minimum functionality ») rejette les apps
+qui ne sont qu'un site web dans une boîte. Alba passe sans difficulté — photo,
+notifications, hors ligne. À savoir pour ne pas être surpris à la première revue.
+
+**Pour mettre à jour** : on modifie, on recompile, on redépose. Revue en 1 à 3 jours
+en général ; Google est souvent le jour même après la première.

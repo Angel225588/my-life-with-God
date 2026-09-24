@@ -51,6 +51,7 @@ Or read it locally: `git clone` the repo, then
 | [`PROMPTS.md`](PROMPTS.md) | Copy-paste prompts for the Alba codebase session | **Whenever building** |
 | [`PRODUCTION.md`](PRODUCTION.md) | 5 tasks to get Alba sellable, with prompts to paste | **This week** |
 | [`DECISIONS.md`](DECISIONS.md) | Every Alba decision, and the open questions with a date | **Before re-arguing anything** |
+| [`SCREENS.md`](SCREENS.md) | Why each screen exists, and why voice lives only in the Alba chat | **Before adding a screen** |
 | [`V1.md`](V1.md) | The 11 screens we build first, and the voice test | **Before building** |
 | [`AUDIT.md`](AUDIT.md) | Every screen walked as a first-time user — bugs fixed, what's open, engagement | **Before building** |
 | [`SHIPPING.md`](SHIPPING.md) | PWA now, App Store next — how Alba gets on a phone | **Before the first hotel** |

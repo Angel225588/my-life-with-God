@@ -33,8 +33,10 @@ questions have a date by which they get decided.
 | D19 | 24 Sep | **Distribution:** PWA now, the same code in Capacitor for the stores next. No separate native app. | One codebase, zero extra customers from a second. | `SHIPPING.md` |
 | D20 | 24 Sep | **Store accounts as an individual** (micro-entreprise). No SASU until: a 2nd paying hotel, revenue near the micro ceiling, or a hotel's purchasing requires a company. | No accountant and fixed costs before the first euro. | `SHIPPING.md` |
 | D21 | 24 Sep | **V1 = 11 screens.** The "Bonjour" screen is deleted; its numbers top the calendar. Month view, Stories, stay band, one-minute call, per-person switches, department homes: after V1. | Prove the loop that catches the lunch-box mistake. | `V1.md` |
-| D22 | 24 Sep | **Buttons before voice.** Speech-to-text chosen by a kitchen test: Whisper vs Voxtral, 30 phrases, numbers/times/allergens must be 30/30. Allergens stay buttons if neither passes. | One misread in front of a chef and trust is gone. | `V1.md` |
+| D22 | 24 Sep | **Buttons before voice.** Speech-to-text chosen by a kitchen test: Scribe (ElevenLabs) vs Whisper vs Voxtral, 30 phrases, numbers/times/allergens must be 30/30. Allergens stay buttons if none passes. *Refined by D25.* | One misread in front of a chef and trust is gone. | `V1.md` |
 | D23 | 25 Sep | **One task template for every task.** Same blocks, same order, whatever the department: header → when & where → what needs a decision → tabs → what to prepare → sub-tasks → who to ask → the handover button. | Two task screens showed the contact and the sub-tasks in different places. | canvas, this file |
+| D25 | 25 Sep | **Voice lives only in the Alba chat.** Screens are for glancing and tapping, with no microphone anywhere else. The chat takes typing, voice messages and calls; voice by ElevenLabs. Alba answers at once, but every change goes through a confirm card that says who gets told, and lands in Activité with undo. Allergy changes are always confirmed as text. The chat joins V1; voice goes live after the kitchen test. | One place to talk means one safety net, and a screen that works without the chat. | `SCREENS.md` |
+| D26 | 25 Sep | **Every screen answers one question faster than a phone call, or it goes.** Agent, dire ce qui change and l'appel merge into one Alba chat; Cuisine and Commercial homes merge into Mes tâches / Calendrier variants; Mise en route joins V1. | Fewer screens, same skeleton, faster to learn. | `SCREENS.md` |
 | D24 | Jun | **Positioning: "one app for hotel ops"** — sell the ecosystem, deliver in modules (land and expand). | Same thesis as Alba → Raizane. | ClickUp (Stratégie) |
 
 ## To decide — with a date
@@ -47,5 +49,6 @@ questions have a date by which they get decided.
 | Q4 | 13 Oct | **Comfortable load per staff member** | The director sets it in the meeting |
 | Q5 | 17 Oct | **Domain, and is the price shown on the site?** | Before the landing page ships |
 | Q6 | 31 Oct | **Events price** (hypothesis €349–499 with breakfast) and add-on structure | After the October meeting |
-| Q7 | 6 Nov | **Whisper or Voxtral** | The kitchen test in `V1.md` |
+| Q7 | 6 Nov | **Scribe, Whisper or Voxtral** for listening | The kitchen test in `V1.md` |
+| Q9 | 9 Oct | **ElevenLabs as a sub-processor:** EU hosting, retention, no training on our audio — in writing | Before any real voice data; goes into the DPA |
 | Q8 | 13 Nov | **Director screen: split Événements / Petit-déjeuner?** | Post-signature roadmap review |

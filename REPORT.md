@@ -86,6 +86,66 @@ The line for the meeting, in his own terms:
 
 ---
 
+## Audit result and decisions (24 Sep 2026)
+
+The Step 1 audit came back against the code. Summary of what it found and what
+was decided.
+
+### The only urgent finding
+
+**Production is collecting nothing.** The ledger branch was never merged; the live
+tablet runs `main`, which deletes at 30 days and has no ledger. **Every day before
+this ships is permanently gone from the day-of-week pattern.**
+
+→ Merge the **day ledger and staff tap alone** — collection only, not the screen.
+Additive, low risk. Deploy after service and never before a Wednesday (the
+heaviest day, earliest peak). Old path stays as fallback.
+
+→ **The ledger must backfill from the 30 retained days on first run**, or launch
+day starts at zero instead of four weeks.
+
+### The écart fix worth making
+
+Reception's payment prompt is **pre-set to "Chambre"**, so nobody actively decides
+and we can't see whether an écart was resolved.
+
+→ For écart cases only, no pre-selection. Reception makes a real choice, and
+"what reception decided" becomes observable. That's the difference between *"we
+showed a prompt"* and *"reception resolved 47 discrepancies."* Leave the default
+alone everywhere else.
+
+### Decisions
+
+| | Decision |
+|---|---|
+| **Comfortable load per staff** | **Ship unset.** The 12 on the mockup is an illustration, not a default. Let the director set it in the meeting — *"at what point does your team start falling behind?"* A number he chose is one he won't argue with, and it makes him an owner of the report. |
+| **Planned window** | **Two — weekday and weekend.** Hotels run later at weekends and one window would flag every Saturday as a late opening. Confirm against the 30 days first. Store the window in force with each day; a setting change must never rewrite history. |
+| **Filter by service** | **Drop it** — my sloppiness, written generically. One breakfast service here, so filters are by day and by weekday. Keep a `service` key on the record anyway: Events will bring seven a day, and a key now beats a migration later. |
+| **Merge** | **Now.** Collection only, after service, not before a Wednesday. |
+
+### What the audit corrected in its own earlier work
+
+Worth recording, because both would have put a wrong number in front of the
+director:
+
+1. The no-show denominator counted walk-ins added during service, and offset
+   extra guests against no-shows. Correct basis: per room, booked minus came,
+   entitled rooms only.
+2. A room corrected from 2 to 3 people made the third guest count as entitled.
+   Entitlement is judged against the sheet's **original** count.
+
+### What this means for October
+
+The weekday pattern will be ~4 weeks deep. Thin, so it goes last.
+
+**Lead with the arrival curve** — fully available from the 30 retained days, and
+the strongest graphic on the board. Then the three-way split, then the peak.
+Show the pattern labelled *"basé sur 4 semaines"* and say the true thing: it gets
+stronger every week they keep using it. A report that improves the longer they
+stay is a retention argument, not an apology.
+
+---
+
 ## The earlier version — money-led
 
 Kept because the écart wording is still right whenever money does come up, and

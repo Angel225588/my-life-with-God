@@ -138,6 +138,84 @@ Calendar sync, icons and imagery, per-department dashboards, the rest.
 
 ---
 
+## The 10-cover story — why "came / didn't come" is too crude
+
+Real service, told 24 Sep: 10 expected, kitchen prepped 10, starters plated.
+5 arrived early and started. 2 came later and ate. 3 came later and **only wanted
+a coffee**.
+
+That last group breaks the model. They are not no-shows — they walked in. But a
+cover was prepared for them and thrown away. A binary counter records them as
+"arrived" and the waste vanishes.
+
+**So every expected cover has three outcomes, not two:**
+
+| | What it means | Who it matters to |
+|---|---|---|
+| **Servi** | Ate the meal | Billing, satisfaction |
+| **Présent, non servi** | Showed up, took nothing (coffee only, arrived too late, changed their mind) | **Kitchen — this is waste that looks like attendance** |
+| **Absent** | Never came | Kitchen, and the billing conversation |
+
+Waste = *présents non servis* + *absents*. In the report that's one sentence:
+**"559 couverts préparés sans être servis."** The chef can act on it; a no-show
+percentage alone he cannot.
+
+It also fixes the billing question. 10 prepared and billed, 6 eaten, is a
+conversation with the client — and Emeline needs it the same day, not at month
+end.
+
+**Arrivals come in waves**, so each one is timestamped. That's not extra work for
+Marine — it's the same button press — and it's where the arrival curve comes from.
+
+---
+
+## The "raconte ce qui s'est passé" agent
+
+Recording that story structurally takes six taps across three screens, during
+service, with her hands full. Saying it takes eight seconds:
+
+> *"On attendait 10, 5 sont arrivés à 12h05, 2 à 12h30, et 3 sont venus juste
+> pour un café."*
+
+That's how staff already talk to each other. So the button exists on Marine's
+screen: **Dicter** or **Écrire**.
+
+### What happens after she speaks — the flow
+
+1. **She talks.** Free text or voice. No form, no fields.
+2. **Alba proposes a structured change** and shows it: `7 servis · 3 présents non
+   servis · 0 absent · lancement 12h15`. Nothing is saved yet.
+3. **She confirms with one tap.** This step is not optional. An agent that writes
+   to an operational record unsupervised will eventually be confidently wrong, and
+   a wrong record is worse than no record — the same rule as the BEO extraction.
+4. **The numbers update** — service, daily, monthly, the report.
+5. **One entry lands in the event log**, visible to everyone on the event. Not a
+   message, a fact with a timestamp and a name on it.
+6. **Only affected roles are notified**, and each in their own terms:
+   - Cuisine — *"3 couverts préparés non servis"*
+   - Commercial — *"10 facturés, 7 servis — à vérifier avec le client"*
+   - Direction — nothing, unless it crosses a threshold
+7. **Questions go back on that log entry**, as a reply. Not a new phone call, not
+   a new WhatsApp thread. The question and the answer stay attached to the thing
+   they're about, and the next person to look sees both.
+
+### What it must not be
+
+- **Not a chat.** One structured entry per event, not a conversation to scroll.
+- **Not autonomous.** It proposes, a human confirms. Always.
+- **Not V1.** Text first, voice later — they're the same pipeline, and the text
+  version is a fraction of the work. Voice is the right end state for a restaurant
+  floor, but it isn't where to start.
+
+### Why it fits
+
+Mistral is already the provider, already EU-hosted, already under the DPA being
+written for the BEOs. Transcription and structured extraction are the same two
+capabilities that parse the breakfast lists and the event orders. **This is a
+third use of one pipeline, not a new system.**
+
+---
+
 ## Amar
 
 A named user with the problem **today**, who I already work with. That's worth

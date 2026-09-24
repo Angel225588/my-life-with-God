@@ -5,6 +5,37 @@ Each one records the decisions already taken, so nothing has to be re-argued.
 
 ---
 
+## 0 · End of every session — **paste this before you close**
+
+Keeps ClickUp a mirror of the work. See [`CLICKUP.md`](CLICKUP.md) for the rules.
+
+```
+Before we stop, close the session properly.
+
+1. DEVLOG — add today's entry at the top of docs/DEVLOG.md: what was
+   wrong, what changed, the number or test that proves it. Commit it.
+
+2. CLICKUP JOURNAL — in Imarketin › 🌅 Alba › 📓 Journal de dev, create
+   (or update, if one exists for today) the card
+   "📓 Journal — YYYY-MM-DD · <gist>", status completed, due today, with
+   these sections: Sessions du jour · Livré · Ce qui a cassé / leçons ·
+   Décisions prises · Resté ouvert. Short, French, no guest names.
+
+3. DECISIONS — for every decision taken today, one card in 📌 Décisions,
+   status "accepted", due today: what was decided, why, what we rejected,
+   where it is written, when to revisit. For every question we left open,
+   one card with status "Open" and the date by which it must be decided.
+
+4. TASKS — every new task you mentioned today gets a card in the right
+   list WITH A DUE DATE (never a Sunday). Anything overdue gets a new date
+   and a comment saying why it slipped.
+
+5. Tell me: the journal card link, the decision cards, and anything you
+   could not write to ClickUp (API limit, missing list) so I can fix it.
+```
+
+---
+
 ## 1 · Ship data collection to production — **paste this now**
 
 > Urgent because nothing is collecting. The live tablet deletes at 30 days and

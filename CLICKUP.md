@@ -1,128 +1,81 @@
-# ClickUp — what's there, and what's missing
+# ClickUp — how Alba is organised
 
-Read on 14 Aug 2026. The API went down partway through, so this is based on one
-successful read of the Imarketin space — good enough to see the shape.
+Rebuilt 24–25 Sep 2026. Everything about Alba lives in **one folder**:
+**Imarketin › 🌅 Alba** (the old "Check-in" folder, renamed).
 
----
+## The lists
 
-## What's there
-
-**Space: `Imarketin`** (`90143235266`)
-
-| Folder / List | Contents |
+| List | What goes there |
 |---|---|
-| 📁 **Check-in** | `Live · Marriott`, `Security · Backlog`, `Sale version · Roadmap`, `📖 User stories` |
-| 📁 **Imarketin Hôtellerie — Plateforme & Acquisition** | `🔒 Fondations — Sécurité & Sync`, `🗺️ Produit — Vision, Rôles & Roadmap`, `🗄️ Supabase — Migration & Sync` |
-| 📋 **🔥 Landing — Ember Build** | G-011 home reframe, G-012 languages, G-013 product site |
+| 📌 **Décisions** | One card per decision. `accepted` = decided; `Open` = to decide, with the date by which it gets decided. Mirrors [`DECISIONS.md`](DECISIONS.md). |
+| 📓 **Journal de dev** | One card per working day: sessions, shipped, what broke + the lesson, decisions, still open. Mirrors `docs/DEVLOG.md` in the Alba code repo, plus the design/strategy sessions from this repo. |
+| 🤝 **Commercial — pilote, signature, pipeline** | The pilot hotel (legal file, October meeting, signature, invoicing), then every other hotel. |
+| 🍳 **Petit-déjeuner — en production** | Module 1 as it runs every morning: field bugs, data collection, the monthly report. |
+| 🎪 **Alba Events — V1** | Module 2: the paper test, the 11-screen V1 build, the voice test. |
+| 📱 **App mobile & stores** | PWA, Apple/Google accounts, Capacitor. |
+| 🌐 **Site, démo & supports** | Landing, one-pager, deck, logo, demo video. |
+| 🔒 **Sécurité, RGPD & plateforme** | Guest-data protection, and the server/sync work that waits for a signed DPA. |
+| 🧭 **Roadmap — après signature** | The backlog. A date here is the day we decide whether it enters the plan — not a delivery promise. |
+| 📖 **User stories — Check-in** | Unchanged (the Alba repo's devlog points to it by name). |
 
-The organisation is genuinely good. Epics, user stories, a live customer list,
-a security backlog. This is not a messy workspace — it's a well-run engineering
-project.
+## The rules
 
-## What's missing
+1. **Every task has a date.** Real deadline, or — for backlog — the review date
+   (the post-signature review is **Fri 13 Nov**). Never a Sunday.
+2. **Every decision gets a card** in 📌 Décisions the day it's taken: what,
+   why, what we rejected, where it's written, when to revisit it.
+3. **Every working session ends with a journal card** in 📓 Journal de dev
+   (the end-of-session prompt is in [`PROMPTS.md`](PROMPTS.md) §0).
+4. **The repo wins.** If ClickUp and a file disagree, the file is right and the
+   card gets fixed — say so in a comment, don't fix silently.
+5. **Friday review** (task in 🤝 Commercial, re-dated each week): 10
+   conversations? Decisions copied? Journal up to date? Anything overdue gets a
+   new date *and a comment saying why*.
 
-**Every single list is a build list.**
+## The calendar — what's due, in order
 
-Epics, user stories, sync architecture, Supabase migration, UX research, landing
-rebuilds. Out of everything I could see, the closest thing to commercial work was
-a security task labelled *"#1 pre-sale."*
-
-There is no list of hotels to contact. No pipeline. No record of conversations.
-No pricing. No follow-ups. **Nothing that turns a built thing into a paid thing.**
-
-This is the same finding as the Vercel account, in a different tool: 16 deployed
-projects, 0 customers; a beautifully organised backlog, 0 prospects. The tools
-aren't the problem. The tools are faithfully reflecting where the attention goes.
-
-> The folder is called **Plateforme & Acquisition**. Everything under it is
-> platform. Nothing under it is acquisition.
-
----
-
-## The exception — three build tasks that really are sales prerequisites
-
-I've been saying "sell before you build." Here is the honest exception, because
-this is France and this is guest data:
-
-- `Lock down /api/* (Gemini cost exposure) — #1 pre-sale`
-- `Rate-limit + body-size + PDF magic-byte hardening; Gemini DPA + Supabase RLS`
-
-**These are not busywork and they are not procrastination.** An open API endpoint
-that bills Gemini per call is a real financial hole. And selling software that
-processes hotel guests' personal data in the EU **without a DPA in place and RLS
-switched on** is a GDPR exposure — for me *and* for the hotel that trusts me.
-Marriott's own compliance people will eventually ask, and the answer has to
-already exist.
-
-**So: these get done in week 1, alongside the Marriott commercial terms.** They
-are the one legitimate "build first." Everything else in the backlog waits behind
-a paying customer asking for it.
-
----
-
-## The restructure — small, not a rebuild
-
-Keep everything that exists. Add what's missing. Two changes only:
-
-### 1. A pipeline list — `💰 Acquisition · Pipeline`
-
-Inside the existing **Imarketin** space. One task per prospect, not per feature.
-
-Statuses: `To contact → Contacted → Demo booked → Demo done → Proposal → Won / Lost`
-
-Custom fields: property name, contact, covers per day, tier (Small/Standard/
-Branded), next step, next step date.
-
-**This becomes the list I open first every morning**, and every walk-in creates
-a task in it. If a conversation isn't in here, it didn't happen.
-
-### 2. A separate Space — `Life`
-
-Not a folder inside Imarketin. A **Space**, so business urgency can never
-outrank it visually.
-
-| List | What lives there |
-|---|---|
-| `🎯 North Star` | One pinned task: the goal, the number, the current MRR. Nothing else. |
-| `🙏 Daily` | Recurring: Word & prayer, the one line, the one outcome |
-| `📅 Rhythm` | Recurring: Monday film batch, Friday review, Sunday off |
-| `💡 Ideas` | Mirrors `IDEAS.md` — where ideas go so they don't hijack the day |
-
-Yes to a personal one. The whole reason for the split is that a life goal filed
-under a business space quietly becomes a business task.
-
----
-
-## Making the goal visible
-
-Visibility is what makes a plan change behaviour. Three layers, weakest to
-strongest:
-
-1. **A ClickUp Dashboard** — one card, huge number: `MRR: €0 / €5,000`.
-   Second card: `Conversations this week: 0 / 10`. Nothing else on it. A
-   dashboard with twelve widgets is a dashboard nobody reads.
-2. **The pinned North Star task**, updated every Friday during the review.
-3. **On paper, on the wall, where I actually sit.** Genuinely the most effective
-   of the three. Two lines, handwritten:
-   > **10 conversations this week.**
-   > **€0 → €5,000.**
-
-## The automations
-
-Three, and deliberately no more. Automations that fire constantly get muted, and
-a muted automation is worse than none.
-
-| # | Trigger | Action |
+| Date | What | List |
 |---|---|---|
-| 1 | Task enters `Contacted` | Set next-step date to +3 days, create a follow-up. *Most sales are in the second contact, and I have never once made a second contact.* |
-| 2 | Task enters `Won` | Auto-create the onboarding checklist: config, staff training, first invoice, testimonial ask, referral ask |
-| 3 | Friday | Create the weekly review task with the four questions from `DAILY.md` |
+| **Sat 26 Sep** | Ship data collection to production (PROMPTS §1) | 🍳 |
+| Sat 26 Sep | Mistral retention answer + hotel privacy contact | 🤝 |
+| Sat 26 Sep | Open Google Play and Apple Developer accounts | 📱 |
+| Tue 29 Sep | Book the October meeting date | 🤝 |
+| **Wed 30 Sep** | Legal file complete · decide who signs the DPA (Q1) | 🤝 📌 |
+| Fri 2 Oct | Paper test V0 with Aymard · template on the BEO task · security checks (API, first-visit allergy access) · re-check the two open field bugs | 🎪 🔒 🍳 |
+| Sat 3 Oct | Go/no-go Events V1 (Q2) · do kitchen/restaurant need the calendar (Q3) | 📌 |
+| Tue 6 Oct | Talk to the F&B manager and breakfast supervisor | 🤝 |
+| Wed 7 Oct | Report screen ready for the meeting | 🍳 |
+| Fri 9 Oct | Lawyer review · service agreement · one-pager + deck · logo · rename "WFC" · V1·1 | 🤝 🌐 🎪 |
+| **Tue 13 Oct** | **Meeting with the director — report first, then terms** (date to confirm) | 🤝 |
+| 14–28 Oct | V1·2 → V1·6 (if the paper test says go) | 🎪 |
+| Sat 17 Oct | Landing page · demo video · domain + price shown? (Q5) | 🌐 📌 |
+| Fri 23 Oct | Billing (SEPA/Stripe) · installable PWA | 🤝 📱 |
+| Fri 30 Oct | First invoice | 🤝 |
+| Sat 31 Oct | 20 hotel visits · Events price (Q6) · site pages | 🤝 📌 🌐 |
+| Fri 6 Nov | Kitchen voice test → Whisper or Voxtral (Q7) | 🎪 |
+| **Fri 13 Nov** | **Post-signature review** — every backlog card gets scheduled or re-dated | 🧭 🔒 |
 
-Plus one outside ClickUp: **a scheduled check-in with Claude** — every weekday
-morning with the number and today's one outcome, and every Friday to run the
-review. That's the automation that actually guides toward the goal, because it
-can ask *"how many conversations yesterday?"* and notice when the answer has been
-zero for four days.
+## State of the migration (25 Sep, 00:30)
 
-**Nothing here is built yet** — ClickUp's API was erroring at the time of
-writing, and the daily/weekly schedule needs my timezone and preferred times.
+ClickUp's **daily API limit** stopped the reorganisation halfway. Done:
+folder renamed, 6 lists created, 3 lists renamed, ~40 tasks moved in. Waiting
+for the limit to reset, all recorded in [`clickup-sync/`](clickup-sync/):
+
+- `clickup-pending.json` — 30 moves, 87 date/status updates, 27 new dated tasks,
+  3 empty-folder renames
+- `devlog-days.json` — 12 journal cards ready to create
+- the 32 decision cards come from [`DECISIONS.md`](DECISIONS.md)
+
+The emptied folders (the old pilot-hotel folder, *Plateforme & Acquisition*, and
+the empty duplicate *Check-in — Breakfast PWA* in the POS space) get renamed
+"🗄️ (vide) …", not deleted. Delete them yourself once you've checked.
+
+## Still valid from the 14 Aug plan — not built yet
+
+- **A separate `Life` space** (North Star · Daily · Rhythm · Ideas), so business
+  urgency never outranks it visually.
+- **One dashboard, two numbers:** `MRR €0 / €5,000` and `Conversations this
+  week: 0 / 10`. Nothing else on it.
+- **Three automations, no more:** task enters *Contacted* → follow-up at +3
+  days · task enters *Won* → onboarding checklist · every Friday → the weekly
+  review task.

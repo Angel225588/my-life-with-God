@@ -1,0 +1,51 @@
+# Alba — every decision, in one place
+
+The decision log. Mirrored in ClickUp: **Imarketin › 🌅 Alba › 📌 Décisions**, one
+card per line below. If the two disagree, this file is right.
+
+**Rule:** a decision is not re-opened without writing *why* next to it. Open
+questions have a date by which they get decided.
+
+---
+
+## Decided
+
+| # | Date | Decision | Why | Source |
+|---|---|---|---|---|
+| D1 | 14 Aug | **The product is called Alba.** Closed, not reopened. | "Check-in" already means something else in hotels; Alba grows into full operations without a rename. | `BRAND.md` |
+| D2 | 14 Aug | **The pilot hotel's brand is never named in public** without written permission. Public line: *"an international hotel brand runs their breakfast service on this every day."* | Using a global brand without permission loses the account and invites a letter. | `MARRIOTT.md` |
+| D3 | 14 Aug | **Price list:** Small €99 · Standard €179 · Branded €299 · Group €149/property; setup €400 / €700 / €1,200. Founding 5: −40 % for 24 months. Founding customers pay. | Priced off value delivered, not nerve. Free pilots produce polite lies. | `LIFE-PLAN.md` §4 |
+| D4 | 14 Aug | **The €149 objection is answered by measuring, not by discounting.** Trade, don't drop: €129 annual prepay for a case study + two introductions. Floor €99, only with both. Never €49. | "Too expensive for its value" is a measurement problem. | `MARRIOTT.md` |
+| D5 | 14 Aug | **No new products for 90 days.** Raizane, Vox, POD are parked with written wake-up conditions. | Building is where I hide from selling. | `LIFE-PLAN.md`, `PARKED.md` |
+| D6 | 14 Aug | **The monthly value report comes before the logo and the landing page.** | A director said he can't see the value. Show it before decorating it. | `LIFE-PLAN.md` §6 |
+| D7 | 14 Aug | **Production order:** Mistral → GDPR → API lockdown → report → customisation. | 1–3 let me sell without lying about compliance. | `PRODUCTION.md` |
+| D8 | Aug | **Gemini → Mistral** (French, EU-hosted). Done. | Removes the transfer objection at the root. | `PRODUCTION.md` §1, devlog 20 Aug |
+| D9 | 1 Sep | **Guest data stays on the tablet on purpose until a DPA is signed.** No server store, no sync or cloud export, no email carrying guest data, no widened retention before signature. | Art. 28(3): written contract before processing. A position, not a gap. | Alba repo `CLAUDE.md`, devlog 1 Sep |
+| D10 | 1 Sep | **Employee data deleted, not assessed.** Duty roster and named champion removed; staff count is a number only. | Minimisation + works council. The rota already knows who. | devlog 1 Sep |
+| D11 | 20 Sep | **Mistral "Labs" is never switched on.** Training opt-out is on and evidenced. | Labs terms override the opt-out. | ClickUp "Deux réponses à obtenir" |
+| D12 | 24 Sep | **The report is about operations and guest experience, not savings.** No euro in the headline; never print a number we did not observe. | Money invites a price comparison; payments live in Micros. | `REPORT.md` |
+| D13 | 24 Sep | **Data collection:** merge the day ledger + staff tap now, collection only; backfill 30 days; deploy after service, never before a Wednesday. Two planned windows (weekday/weekend). Comfortable load ships **unset**. No service filter, but keep a `service` key. Écart prompt: no pre-selected "Chambre" for écarts only. Staff count asked at the **start** of service. Feel check: monthly average only. | Every day not collected is lost for good. | `REPORT.md`, `PROMPTS.md` §1 |
+| D14 | 24 Sep | **Alba Events is module 2.** Paper test (V0) with Aymard before any code. | A named user with the problem today. | `ALBA-EVENTS.md` |
+| D15 | 24 Sep | **October meeting: open with the report, not with Events screens.** | Screens first makes the price look worse. | `ALBA-EVENTS.md` |
+| D16 | 24 Sep | **Events scope:** no messaging (comments on a task instead), no dashboards first, **extraction is always confirmed by a human**. | A wrong time sent to the kitchen is worse than a messy PDF. | `ALBA-EVENTS.md` |
+| D17 | 24 Sep | **Design rules:** same screens for every role, content differs · safety info never behind a tap · Alba asks, never resolves silently · decision stays until decided, news = 3 s toast, memory = Activité · tagging interrupts, the log is free · a switch hides a screen, never a task · photos of rooms and food only, never a guest's face · Alba shows only what it observed · no visible versions, only "à jour" · *vous* everywhere. | Trust is the product. | `ALBA-EVENTS.md`, `AUDIT.md` |
+| D18 | 24 Sep | **Engagement without addiction:** no infinite feed, no public counts, no individual leaderboards, no red badges for non-urgent things. Goal = opened every shift, answered in minutes. | A waiter scrolling is a waiter not serving. | `AUDIT.md` |
+| D19 | 24 Sep | **Distribution:** PWA now, the same code in Capacitor for the stores next. No separate native app. | One codebase, zero extra customers from a second. | `SHIPPING.md` |
+| D20 | 24 Sep | **Store accounts as an individual** (micro-entreprise). No SASU until: a 2nd paying hotel, revenue near the micro ceiling, or a hotel's purchasing requires a company. | No accountant and fixed costs before the first euro. | `SHIPPING.md` |
+| D21 | 24 Sep | **V1 = 11 screens.** The "Bonjour" screen is deleted; its numbers top the calendar. Month view, Stories, stay band, one-minute call, per-person switches, department homes: after V1. | Prove the loop that catches the lunch-box mistake. | `V1.md` |
+| D22 | 24 Sep | **Buttons before voice.** Speech-to-text chosen by a kitchen test: Whisper vs Voxtral, 30 phrases, numbers/times/allergens must be 30/30. Allergens stay buttons if neither passes. | One misread in front of a chef and trust is gone. | `V1.md` |
+| D23 | 25 Sep | **One task template for every task.** Same blocks, same order, whatever the department: header → when & where → what needs a decision → tabs → what to prepare → sub-tasks → who to ask → the handover button. | Two task screens showed the contact and the sub-tasks in different places. | canvas, this file |
+| D24 | Jun | **Positioning: "one app for hotel ops"** — sell the ecosystem, deliver in modules (land and expand). | Same thesis as Alba → Raizane. | ClickUp (Stratégie) |
+
+## To decide — with a date
+
+| # | Decide by | Question | Who / how |
+|---|---|---|---|
+| Q1 | 30 Sep | **Who signs the DPA** — the property, the management company, or the brand? | Ask the hotel; blocks the DPA and the breach procedure |
+| Q2 | 3 Oct | **Go / no-go on Events V1** after the paper test | Aymard's reaction: "can I have this next week too?" |
+| Q3 | 3 Oct | **Do kitchen and restaurant need the calendar**, or only their own list? | Before V1 build starts |
+| Q4 | 13 Oct | **Comfortable load per staff member** | The director sets it in the meeting |
+| Q5 | 17 Oct | **Domain, and is the price shown on the site?** | Before the landing page ships |
+| Q6 | 31 Oct | **Events price** (hypothesis €349–499 with breakfast) and add-on structure | After the October meeting |
+| Q7 | 6 Nov | **Whisper or Voxtral** | The kitchen test in `V1.md` |
+| Q8 | 13 Nov | **Director screen: split Événements / Petit-déjeuner?** | Post-signature roadmap review |

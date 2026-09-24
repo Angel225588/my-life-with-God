@@ -1,0 +1,877 @@
+{
+ "lists": {
+  "DEC": "1000490000014388",
+  "LOG": "1000490000014389",
+  "COM": "1000490000014390",
+  "EVT": "1000490000014391",
+  "APP": "1000490000014392",
+  "SITE": "1000490000014393",
+  "LIVE": "1000490000005670",
+  "SEC": "1000490000005671",
+  "ROAD": "1000490000005672",
+  "US": "1000490000008267"
+ },
+ "moves": [
+  [
+   "86bac8jh4",
+   "SEC"
+  ],
+  [
+   "wdy2xgubwp",
+   "ROAD"
+  ],
+  [
+   "wdy2xgubwn",
+   "ROAD"
+  ],
+  [
+   "wdy2xgubwm",
+   "ROAD"
+  ],
+  [
+   "wdy2xgubwk",
+   "ROAD"
+  ],
+  [
+   "wdy2xgubwh",
+   "ROAD"
+  ],
+  [
+   "wdy2xgubwg",
+   "ROAD"
+  ],
+  [
+   "wdy2xgubwf",
+   "ROAD"
+  ],
+  [
+   "wdy2xgubwe",
+   "ROAD"
+  ],
+  [
+   "wdy2xgubwd",
+   "ROAD"
+  ],
+  [
+   "86babzz36",
+   "DEC"
+  ],
+  [
+   "86babyt8e",
+   "COM"
+  ],
+  [
+   "86babyt7n",
+   "COM"
+  ],
+  [
+   "86baby7c6",
+   "DEC"
+  ],
+  [
+   "86baby7av",
+   "DEC"
+  ],
+  [
+   "86babzz28",
+   "SITE"
+  ],
+  [
+   "86babzyz0",
+   "SITE"
+  ],
+  [
+   "86babzyy8",
+   "SITE"
+  ],
+  [
+   "86baby7c1",
+   "SITE"
+  ],
+  [
+   "86baby78q",
+   "SITE"
+  ],
+  [
+   "86baby7by",
+   "ROAD"
+  ],
+  [
+   "86baby79g",
+   "ROAD"
+  ],
+  [
+   "86baby79b",
+   "COM"
+  ],
+  [
+   "86baby78j",
+   "COM"
+  ],
+  [
+   "wdy2xgwfah",
+   "SITE"
+  ],
+  [
+   "wdy2xgzwet",
+   "LOG"
+  ],
+  [
+   "wdy2xgwm2n",
+   "COM"
+  ],
+  [
+   "wdy2xgwkzv",
+   "COM"
+  ],
+  [
+   "wdy2xgwkzu",
+   "COM"
+  ],
+  [
+   "wdy2xgwkzt",
+   "SITE"
+  ]
+ ],
+ "updates": [
+  [
+   "86ba484mh",
+   {
+    "due": "2026-10-23"
+   }
+  ],
+  [
+   "86ba484kd",
+   {
+    "due": "2026-10-09"
+   }
+  ],
+  [
+   "86ba484hy",
+   {
+    "due": "2026-09-29",
+    "comment": "Re-daté : sert maintenant à fixer la date du rendez-vous d'octobre."
+   }
+  ],
+  [
+   "86babyt8g",
+   {
+    "due": "2026-10-23"
+   }
+  ],
+  [
+   "86ba4850v",
+   {
+    "due": "2026-11-27"
+   }
+  ],
+  [
+   "86ba484z1",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "86ba484wr",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "86ba484vq",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "86ba484uh",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "86ba484tm",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "86ba484qy",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "86ba484nj",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "wdy2xgv8xr",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "wdy2xgv6hj",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "wdy2xgv6hc",
+   {
+    "status": "Closed",
+    "comment": "Doublon de « Bascule Sync (mode miroir) » — fermé lors du rangement du 25/09."
+   }
+  ],
+  [
+   "wdy2xgv6hh",
+   {
+    "due": "2026-10-31"
+   }
+  ],
+  [
+   "wdy2xgv6hf",
+   {
+    "status": "completed",
+    "comment": "✅ dans le titre — marqué fait lors du rangement."
+   }
+  ],
+  [
+   "wdy2xgv6he",
+   {
+    "status": "completed",
+    "comment": "Fait à 30 jours (pas 90) : purge + journal, droits accès/effacement/export — voir dossier légal."
+   }
+  ],
+  [
+   "wdy2xgv6hd",
+   {
+    "status": "completed",
+    "comment": "Fait : Mistral Paris en production (devlog 20/08, dossier légal)."
+   }
+  ],
+  [
+   "wdy2xgv6hb",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "wdy2xgv6ha",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "wdy2xgv6h9",
+   {
+    "status": "completed"
+   }
+  ],
+  [
+   "86baby7ba",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "86bac8jmh",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "86bac8jkt",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "86bac8jk8",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "86bac8jjh",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "wdy2xgubwp",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "wdy2xgubwn",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "wdy2xgubwm",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "wdy2xgubwk",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "wdy2xgubwh",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "wdy2xgubwg",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "wdy2xgubwf",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "wdy2xgubwe",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "wdy2xgubwd",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "86babzz36",
+   {
+    "due": "2026-10-17",
+    "comment": "Le nom est tranché : Alba (14/08, D1). Restent domaine et prix affiché (Q5)."
+   }
+  ],
+  [
+   "86babyt8e",
+   {
+    "due": "2026-10-31"
+   }
+  ],
+  [
+   "86babyt7n",
+   {
+    "due": "2026-10-31"
+   }
+  ],
+  [
+   "86baby7c6",
+   {
+    "due": "2026-10-31",
+    "comment": "Grille de base décidée le 14/08 (D3). Reste : prix Events et add-ons (Q6)."
+   }
+  ],
+  [
+   "86baby7av",
+   {
+    "status": "accepted",
+    "due": "2026-06-10"
+   }
+  ],
+  [
+   "86babzz28",
+   {
+    "due": "2026-10-31"
+   }
+  ],
+  [
+   "86babzyz0",
+   {
+    "due": "2026-10-31"
+   }
+  ],
+  [
+   "86babzyy8",
+   {
+    "due": "2026-10-31"
+   }
+  ],
+  [
+   "86baby7c1",
+   {
+    "due": "2026-10-09",
+    "priority": "high"
+   }
+  ],
+  [
+   "86baby78q",
+   {
+    "due": "2026-10-17"
+   }
+  ],
+  [
+   "86baby7by",
+   {
+    "due": "2026-11-13",
+    "comment": "Module 2 = Alba Events (D14). Celui-ci attend."
+   }
+  ],
+  [
+   "86baby79g",
+   {
+    "due": "2026-11-13",
+    "comment": "Module 2 = Alba Events (D14). Celui-ci attend."
+   }
+  ],
+  [
+   "86baby79b",
+   {
+    "due": "2026-10-13"
+   }
+  ],
+  [
+   "86baby78j",
+   {
+    "due": "2026-10-31"
+   }
+  ],
+  [
+   "wdy2xgwfah",
+   {
+    "due": "2026-10-17"
+   }
+  ],
+  [
+   "wdy2xgwm2n",
+   {
+    "due": "2026-10-31"
+   }
+  ],
+  [
+   "wdy2xgwkzv",
+   {
+    "due": "2026-10-31"
+   }
+  ],
+  [
+   "wdy2xgwkzu",
+   {
+    "due": "2026-10-23"
+   }
+  ],
+  [
+   "wdy2xgwkzt",
+   {
+    "due": "2026-10-17"
+   }
+  ],
+  [
+   "wdy2xgzwep",
+   {
+    "due": "2026-10-02"
+   }
+  ],
+  [
+   "wdy2xgx36e",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "wdy2xgwkv7",
+   {
+    "status": "completed"
+   }
+  ],
+  [
+   "wdy2xgwkv6",
+   {
+    "due": "2026-10-02",
+    "comment": "À vérifier : toujours présent après les livraisons d'août ?"
+   }
+  ],
+  [
+   "wdy2xgzvuz",
+   {
+    "due": "2026-10-09"
+   }
+  ],
+  [
+   "wdy2xgzvux",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "wdy2xgzvuw",
+   {
+    "due": "2026-10-09"
+   }
+  ],
+  [
+   "wdy2xgx36f",
+   {
+    "due": "2026-10-02"
+   }
+  ],
+  [
+   "wdy2xgwkvc",
+   {
+    "due": "2026-10-02"
+   }
+  ],
+  [
+   "wdy2xgwkvb",
+   {
+    "due": "2026-10-02"
+   }
+  ],
+  [
+   "wdy2xgzw7f",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "wdy2xgx36g",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "wdy2xgwnp1",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "wdy2xgwkva",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "wdy2xgwkv8",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "wdy2xgy8nc",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "wdy2xgy8nb",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "wdy2xgy8na",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "wdy2xgy8n9",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "wdy2xgxfjh",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "wdy2xgxfje",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "wdy2xgxfjd",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "wdy2xgxfjc",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "wdy2xgxfjb",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "wdy2xgxfja",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "wdy2xgxfj9",
+   {
+    "due": "2026-11-13"
+   }
+  ],
+  [
+   "wdy2xgxfj8",
+   {
+    "due": "2026-10-09"
+   }
+  ],
+  [
+   "wdy2xgxfj7",
+   {
+    "due": "2026-10-09"
+   }
+  ],
+  [
+   "wdy2xgzvup",
+   {
+    "due": "2026-10-02"
+   }
+  ],
+  [
+   "wdy2xgzvun",
+   {
+    "due": "2026-10-02"
+   }
+  ],
+  [
+   "wdy2xgxfjf",
+   {
+    "due": "2026-10-02"
+   }
+  ],
+  [
+   "wdy2xgxfj1",
+   {
+    "due": "2026-10-02"
+   }
+  ]
+ ],
+ "folder_renames": [
+  [
+   "90149650540",
+   "🗄️ (vide) Hôtel pilote — déplacé dans 🌅 Alba › 🤝 Commercial"
+  ],
+  [
+   "90149952181",
+   "🗄️ (vide) Plateforme & Acquisition — déplacé dans 🌅 Alba"
+  ],
+  [
+   "1000490000003404",
+   "🗄️ (doublon vide) Check-in — voir Imarketin › 🌅 Alba"
+  ]
+ ],
+ "creates": [
+  {
+   "list": "LIVE",
+   "name": "🚀 Livrer la collecte de données en production (PROMPTS §1)",
+   "due": "2026-09-26",
+   "priority": "urgent",
+   "desc": "Registre du jour + tap effectif + rattrapage 30 jours. Déployer après le service, jamais avant un mercredi. Chaque jour d’attente est perdu pour le motif par jour de semaine. Décision D13."
+  },
+  {
+   "list": "LIVE",
+   "name": "📊 Écran du rapport mensuel (PROMPTS §2) — prêt pour le rendez-vous",
+   "due": "2026-10-07",
+   "priority": "high",
+   "desc": "Commencer par la courbe d’arrivées (30 jours dispo). Motif semaine étiqueté « basé sur N semaines ». Décision D12."
+  },
+  {
+   "list": "COM",
+   "name": "🎯 Rendez-vous directeur — le rapport d’abord, puis les termes",
+   "due": "2026-10-13",
+   "priority": "urgent",
+   "desc": "Date proposée, à confirmer (voir « Relancer »). Ouvrir par le rapport, pas par Events (D15). Lui faire fixer la charge confortable (Q4). Demander : termes écrits, permission du nom, témoignage, 2 introductions."
+  },
+  {
+   "list": "COM",
+   "name": "🗣️ Parler au responsable F&B et à la superviseure petit-déj avant le directeur",
+   "due": "2026-10-06",
+   "priority": "high",
+   "desc": "Une question : « Si Alba s’arrêtait demain matin, que se passe-t-il au petit-déjeuner ? » Noter leurs mots exacts."
+  },
+  {
+   "list": "COM",
+   "name": "🧾 Première facture de l’hôtel pilote",
+   "due": "2026-10-30",
+   "priority": "high",
+   "desc": "Après signature. Dépend de la facturation SEPA / Stripe."
+  },
+  {
+   "list": "COM",
+   "name": "📋 Lister 60 établissements avec petit-déjeuner à portée",
+   "due": "2026-10-10",
+   "priority": "normal",
+   "desc": "Nom, adresse, qui décide. PROSPECTING.md."
+  },
+  {
+   "list": "COM",
+   "name": "🚪 Entrer dans 20 de ces établissements (10h–midi)",
+   "due": "2026-10-31",
+   "priority": "normal",
+   "desc": "Chaque visite = une tâche dans cette liste. Si ce n’est pas ici, ça n’a pas eu lieu."
+  },
+  {
+   "list": "COM",
+   "name": "📈 Revue du vendredi — 10 conversations cette semaine ?",
+   "due": "2026-10-02",
+   "priority": "high",
+   "desc": "Chaque vendredi : nombre de conversations, prochaine étape de chaque prospect, décisions de la semaine copiées dans 📌 Décisions, journal à jour. Re-dater au vendredi suivant."
+  },
+  {
+   "list": "EVT",
+   "name": "📄 Test papier V0 avec Aymard — un BEO réel découpé par département",
+   "due": "2026-10-02",
+   "priority": "high",
+   "desc": "Demander avant d’utiliser un vrai BEO (données clients). Son « je peux l’avoir la semaine prochaine aussi ? » = go (Q2)."
+  },
+  {
+   "list": "EVT",
+   "name": "🎨 Appliquer le gabarit Tâche à « Tâche — le BEO » (commercial)",
+   "due": "2026-10-02",
+   "priority": "normal",
+   "desc": "Même ordre que Lunch Box et Installation salle (D23). Board Gabarit sur le canvas."
+  },
+  {
+   "list": "EVT",
+   "name": "✏️ Renommer le client « WFC » en client fictif sur tout le canvas",
+   "due": "2026-10-09",
+   "priority": "high",
+   "desc": "Avant de montrer le canvas à qui que ce soit hors de l’hôtel."
+  },
+  {
+   "list": "EVT",
+   "name": "🎨 Dessiner Tâche technique et Plan des salles (réception)",
+   "due": "2026-10-09",
+   "priority": "normal",
+   "desc": "Deux écrans promis mais jamais dessinés (AUDIT.md). Tâche technique = gabarit Tâche."
+  },
+  {
+   "list": "EVT",
+   "name": "🧱 V1·1 Dépôt → lecture → écran de confirmation",
+   "due": "2026-10-09",
+   "priority": "high",
+   "desc": "Extraction toujours confirmée par un humain (D16). Si go au test papier."
+  },
+  {
+   "list": "EVT",
+   "name": "🧱 V1·2 Chronologie partagée (mes tâches / tout)",
+   "due": "2026-10-14",
+   "priority": "high",
+   "desc": ""
+  },
+  {
+   "list": "EVT",
+   "name": "🧱 V1·3 Tâche au gabarit unique",
+   "due": "2026-10-16",
+   "priority": "high",
+   "desc": "Construire le gabarit une fois ; chaque tâche = des données (D23)."
+  },
+  {
+   "list": "EVT",
+   "name": "🧱 V1·4 Statut + activité",
+   "due": "2026-10-21",
+   "priority": "high",
+   "desc": ""
+  },
+  {
+   "list": "EVT",
+   "name": "🧱 V1·5 Inscription, invitation, rôles par défaut",
+   "due": "2026-10-23",
+   "priority": "high",
+   "desc": "Pas d’interrupteurs par personne en V1 (D21)."
+  },
+  {
+   "list": "EVT",
+   "name": "🧱 V1·6 Détection des contradictions du BEO",
+   "due": "2026-10-28",
+   "priority": "high",
+   "desc": "Le test : retrouver les 3 heures de la Lunch Box."
+  },
+  {
+   "list": "EVT",
+   "name": "🎙️ Test reconnaissance vocale en cuisine — Whisper vs Voxtral",
+   "due": "2026-11-06",
+   "priority": "normal",
+   "desc": "30 phrases réelles, nombres/heures/allergènes 30/30, < 2 s. V1.md. Décide Q7."
+  },
+  {
+   "list": "APP",
+   "name": "🤖 Ouvrir le compte Google Play Console (Personal)",
+   "due": "2026-09-26",
+   "priority": "high",
+   "desc": "https://play.google.com/console/signup — 25 $ une fois."
+  },
+  {
+   "list": "APP",
+   "name": "🍎 Ouvrir le compte Apple Developer (Individual)",
+   "due": "2026-09-26",
+   "priority": "high",
+   "desc": "https://developer.apple.com/programs/enroll/ — 99 €/an, nom légal exact de la pièce d’identité."
+  },
+  {
+   "list": "APP",
+   "name": "📲 PWA installable — manifest, service worker, icônes",
+   "due": "2026-10-23",
+   "priority": "normal",
+   "desc": "SHIPPING.md étape 1. Le premier hôtel peut démarrer après."
+  },
+  {
+   "list": "APP",
+   "name": "🪟 Barres translucides, zones sûres, retour par balayage",
+   "due": "2026-10-23",
+   "priority": "normal",
+   "desc": "SHIPPING.md étape 2."
+  },
+  {
+   "list": "APP",
+   "name": "📦 Capacitor + push natif + fiches store",
+   "due": "2026-11-13",
+   "priority": "normal",
+   "desc": "SHIPPING.md étape 4."
+  },
+  {
+   "list": "APP",
+   "name": "👥 Inscrire 12 testeurs Android (14 jours)",
+   "due": "2026-11-20",
+   "priority": "normal",
+   "desc": "Règle Google pour les comptes personnels."
+  },
+  {
+   "list": "SITE",
+   "name": "✒️ Logo Alba — wordmark, une heure",
+   "due": "2026-10-09",
+   "priority": "normal",
+   "desc": "Pas d’icône, pas de mascotte."
+  },
+  {
+   "list": "SITE",
+   "name": "🎬 Vidéo démo — 4 minutes, écran + ma voix",
+   "due": "2026-10-17",
+   "priority": "normal",
+   "desc": "Moche et publiée vaut mieux que belle et en attente."
+  }
+ ]
+}

@@ -54,5 +54,44 @@ that comes with it. Shared-interest matching, real names, and a hosted room.
 
 ---
 
+### [2026-09-24] No-show recovery — turning a missed breakfast into a service moment
+A guest had breakfast included and didn't come down. Today that's just a number.
+It could be a trigger: offer them something later — a room-service tray, a
+voucher, a coffee — especially for VIPs and repeat guests. A missed entitlement
+becomes a moment of care instead of a quiet loss on both sides.
+
+Who pays for it: the hotel, as a guest-satisfaction feature. Plausibly the single
+strongest upsell hook in the product — it acts on a *known* individual guest at a
+*known* moment of mild disappointment, which is the rarest thing in hospitality
+software.
+
+**Split this in two, and only the first half is near-term:**
+
+- **Measuring no-shows: do it now.** Already in [`REPORT.md`](REPORT.md). Costs
+  nothing extra, needs no new data, and the day-of-week pattern is immediately
+  useful to the kitchen for prep quantities.
+- **Acting on them: later, and deliberately later.** It needs things Alba doesn't
+  have and shouldn't rush:
+  - **Guest segmentation** — who counts as VIP lives in the PMS (Opera or
+    similar), not in Alba. That's an integration, and probably the same project
+    as the Micros one.
+  - **A workflow** — who gets notified, what gets offered, who approves it, who
+    delivers it. That's an operational design question for the hotel, not a
+    feature I can decide alone.
+  - **Guest-facing communication** — a completely different compliance and brand
+    surface. Contacting a guest about their breakfast is the hotel speaking, not
+    Alba, and getting that wrong is far worse than not doing it.
+
+**Why it's worth writing down now anyway:** it's the clearest evidence that Alba
+isn't a cost-control tool but a **guest-experience** tool. That framing is worth
+far more than the feature — cost tools get squeezed at budget time, guest
+experience tools get protected. Mention it in October as direction, not as a
+promise.
+
+**Trigger to revisit:** once the PMS integration exists for any other reason.
+Not before — the integration is the hard part; the feature on top of it is small.
+
+---
+
 <!-- New ideas go below this line. Date them. Don't delete them — dead ideas get
      crossed out on a Friday, and it's good to see how many died. -->

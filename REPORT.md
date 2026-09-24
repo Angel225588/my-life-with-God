@@ -60,6 +60,28 @@ Three things this does, and all three matter:
    stops being 'up to' and becomes exactly."* That's the natural upsell, and it's
    a strong thing to raise in October without asking for anything.
 
+### The second number — no-shows
+
+Available today, same data inverted: guests who **were** entitled and **didn't
+come**. And in one way it's a stronger number than the écart, because it needs no
+hedging at all. Écarts have to say *"up to"* because settlement lives in Micros.
+No-shows are fully observable by Alba — we know precisely who was entitled and
+precisely who didn't arrive. Nothing to qualify.
+
+> ## 18% no-show rate
+> 562 entitled guests did not attend. Highest on Tuesdays (23%), lowest at
+> weekends (11%).
+
+**The value isn't the count — it's the predictability.** A chef who learns that
+Tuesdays run 23% no-show preps 23% less on Tuesdays. That's food cost, every
+week, forever — and Alba is the only system in the building that could tell them.
+
+Report the **count and the rate, broken down by day of week**. Do not convert it
+to euros of food waste: we don't know what the kitchen prepares per head, and the
+same discipline applies as everywhere else on this page. Give them the pattern;
+let the chef price it. They'll do it more accurately than we could, and they'll
+believe their own arithmetic.
+
 ### Then, small, underneath
 
 - **Reliability** — 30 of 30 mornings covered, 0 fallbacks to paper

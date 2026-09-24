@@ -102,7 +102,32 @@ Le premier hôtel peut démarrer après l'étape 1.
 
 La page Google ne se trouve pas depuis le Play Store — il faut y aller par ce lien.
 
-### Individuel ou société : la question à trancher avant de payer
+### Décision prise : individuel, pour l'instant
+
+Alba tourne sous une **micro-entreprise**. Apple ne l'accepte pas comme
+« organisation » (entreprise individuelle, pas personne morale). Donc :
+
+- **Apple** : inscription **Individual**, nom légal exact de la pièce d'identité.
+  Pas de D-U-N-S.
+- **Google** : compte **Personal**. La règle des 12 testeurs / 14 jours est un non-
+  problème ici : on a une équipe hôtelière qui utilise l'app tous les jours. Dès la
+  première version Android, on inscrit 12 personnes de l'équipe Marriott et le
+  compteur tourne pendant qu'on avance sur le reste.
+
+**Pas de SASU maintenant.** Ça ajoute un comptable et des frais fixes avant le
+premier euro encaissé.
+
+**On passe en SASU au premier de ces trois signaux :**
+1. un **deuxième hôtel payant** ;
+2. le chiffre d'affaires approche le **plafond micro** pour les services (environ
+   77 k€/an — vérifier le chiffre de l'année) ;
+3. le **service achats** d'un hôtel exige une société comme fournisseur.
+
+Ce n'est pas un piège : Apple permet de migrer un compte individuel vers une
+organisation (via le support), et Google permet de transférer les apps vers un
+nouveau compte. Rien de ce qu'on publie maintenant n'est perdu.
+
+### Individuel ou société : ce qu'il faut savoir
 
 **Prendre société, pas individuel.** Deux raisons.
 

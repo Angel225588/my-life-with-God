@@ -686,13 +686,6 @@
  "creates": [
   {
    "list": "LIVE",
-   "name": "🚀 Livrer la collecte de données en production (PROMPTS §1)",
-   "due": "2026-09-26",
-   "priority": "urgent",
-   "desc": "Registre du jour + tap effectif + rattrapage 30 jours. Déployer après le service, jamais avant un mercredi. Chaque jour d’attente est perdu pour le motif par jour de semaine. Décision D13."
-  },
-  {
-   "list": "LIVE",
    "name": "📊 Écran du rapport mensuel (PROMPTS §2) — prêt pour le rendez-vous",
    "due": "2026-10-07",
    "priority": "high",
@@ -872,6 +865,15 @@
    "due": "2026-10-17",
    "priority": "normal",
    "desc": "Moche et publiée vaut mieux que belle et en attente."
+  }
+ ],
+ "decision_creates": [
+  {
+   "list": "DEC",
+   "name": "Q9 · ElevenLabs as a sub-processor — terms in writing",
+   "status": "Open",
+   "due": "2026-10-09",
+   "desc": "**Open question — decide by Fri 9 Oct:** ElevenLabs as a sub-processor: EU hosting, retention, no training on our audio — in writing.\n\n**Who / how:** Before any real voice data; goes into the DPA.\n\n[DECISIONS.md](https://github.com/Angel225588/my-life-with-God/blob/HEAD/DECISIONS.md)"
   }
  ]
 }

@@ -58,5 +58,10 @@
   "date": "2026-09-24",
   "title": "📓 Journal — 2026-09-24 · Alba Events conçu, V1 cadrée",
   "body": "## Sessions du jour\n- Session conception Alba Events (canvas + repo my-life-with-God), jusqu'à 00:30 le 25\n\n## Livré\n- ALBA-EVENTS.md, BEO-ANALYSIS.md (le BEO se contredit : 3 heures pour la Lunch Box)\n- REPORT.md recadré opérations ; audit de la collecte ; PROMPTS.md §1–3\n- Canvas « Alba Events — screens » : 29 écrans, audit complet (AUDIT.md), puis rangée V1 de 11 écrans (V1.md)\n- SHIPPING.md : PWA puis Capacitor ; comptes stores en individuel\n- DECISIONS.md : 24 décisions + 8 questions datées\n- Gabarit Tâche unique : Lunch Box (banquet, cuisine) et Installation salle refaits dessus\n- ClickUp : dossier 🌅 Alba créé et rangé (en partie — limite API atteinte)\n\n## Ce qui a cassé / leçons\n- Le directeur et le rapport affichaient des chiffres différents → alignés\n- Deux écrans « Tâche » rangés différemment → un gabarit, construit une fois\n- Production ne collecte rien : la branche du registre n'a jamais été fusionnée\n\n## Décisions prises\n- D12 à D23 (voir 📌 Décisions)\n\n## Resté ouvert\n- Lancer PROMPTS §1 (collecte) — chaque jour perdu l'est pour de bon\n- Test papier V0 avec Aymard ; comptes Apple/Google ; renommer « WFC »"
+ },
+ {
+  "date": "2026-09-25",
+  "title": "📓 Journal — 2026-09-25 · Typo calme, boucle d'audit UI/UX",
+  "body": "## Sessions du jour\n- 2026-09-25 — typographie calme et boucle d'audit UI/UX (repo alba)\n\n## Livré\n- Calm type across the app (no bold, one big figure per screen).\n- UI/UX audit loop set up (auditor agent, `audit_shots.py`, `audit-pass.sh`, Stop hook, rule in `CLAUDE.md`).\n- Five departments passed the audit at 9/10 — Banquet, Cuisine, Commercial, Restaurant, Technique — Direction in progress.\n- Demo clock moved to 10:52.\n- A time decision now moves every task of its service.\n- 75 check-in screens added to the design canvas.\n\n## Ce qui a cassé / leçons\nRien de signalé.\n\n## Décisions prises\n- D28 à D32 (voir 📌 Décisions)\n\n## Resté ouvert\n- Direction : audit en cours.\n"
  }
 ]

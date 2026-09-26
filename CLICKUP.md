@@ -55,12 +55,14 @@ Rebuilt 24–25 Sep 2026. Everything about Alba lives in **one folder**:
 | Fri 6 Nov | Kitchen voice test → Whisper or Voxtral (Q7) | 🎪 |
 | **Fri 13 Nov** | **Post-signature review** — every backlog card gets scheduled or re-dated | 🧭 🔒 |
 
-## State of the migration (25 Sep 2026, 14:20 UTC / 16:20 Paris)
+## State of the migration (26 Sep 2026, 13:23 UTC / 15:23 Paris)
 
 ClickUp's MCP limit is **100 calls a day for the whole workspace**, shared by
-every session. The next reset is **Sat 26 Sep, ~13:10 UTC**. This MCP server
-enables **no bulk operators**, so every create, update and move costs one call.
-The rest (≈190 items) takes about two more days of quota.
+every session. The next reset is **Sun 27 Sep, ~13:10 UTC** (on 26 Sep the
+limit was hit at 13:22 UTC and the server said "try again in 23h 59m", so
+allow until ~13:25). This MCP server enables **no bulk operators**, so every
+create, update and move costs one call. The rest (114 items, plus the comment calls) takes
+about two more days of quota.
 
 **Done:**
 - 24 Sep: folder renamed, 6 lists created, 3 lists renamed, ~40 tasks moved in.
@@ -69,22 +71,34 @@ The rest (≈190 items) takes about two more days of quota.
     goes on Mon 21 Sep because 20 Sep was a Sunday).
   - Q1, Q2, Q4, Q7 and Q8 are `Open`, dated the decide-by day.
   - Q3 is `Closed` (answered by D28).
-- D24, Q5 and Q6 were **not created**. They already exist as cards
-  (`86baby7av`, `86babzz36`, `86baby7c6`) that the pending moves bring into
-  📌 Décisions, with their status and dates set in the updates. Rename them to
-  "D24 · …", "Q5 · …" and "Q6 · …" once they have moved.
+- 26 Sep replay (13:21–13:22 UTC, 51 calls landed before the shared limit ran
+  out):
+  - **Q9** created in 📌 Décisions (`Open`, due Fri 9 Oct).
+  - **All 30 moves** done. D24, Q5 and Q6 are now in 📌 Décisions and renamed
+    "D24 · 🧭 Positionnement…", "Q5 · 🏷️ Décisions ouvertes…" and
+    "Q6 · 💰 Pricing & add-ons…". D24 is `accepted`, due 10 Jun; Q5 is due
+    17 Oct and Q6 31 Oct (both still `Open`). Their date/status updates went
+    in the same call as the rename.
+  - **14 of 26 creates**: the monthly-report screen (🍳), the six 🤝 Commercial
+    tasks, and in 🎪 Events the paper test, BEO template, "WFC" rename, the
+    two missing screens, V1·1, V1·2 and V1·3.
 
-**Still pending**, recorded in [`clickup-sync/`](clickup-sync/):
+**Still pending**, recorded in [`clickup-sync/`](clickup-sync/), in replay
+order:
 
 - `clickup-pending.json`:
-  - `decision_creates`: 1 item (Q9, which hit the limit).
-  - `creates`: 27 new dated tasks.
-  - `updates`: 87 date/status changes. Entries with a `comment` need an
-    extra call for the comment.
-  - `moves`: 30.
+  - `decision_creates`: none left.
+  - `moves`: none left.
+  - `creates`: 12 (V1·4, V1·5, V1·6, the kitchen voice test, the six 📱 App
+    tasks, the logo and the demo video). The two store-account tasks are
+    dated Sat 26 Sep: re-date them if they're still not done when they land.
+- `devlog-days.json`: all 13 journal cards (the 12 days plus 25 Sep, the
+  UI/UX audit day). Status `completed`, due the day. 9 Aug was a Sunday, so
+  that card is due Mon 10 Aug, as with D11.
+- `clickup-pending.json`, continued:
+  - `updates`: 86 date/status changes. Q5 and Q6 are left with only their
+    comment. Entries with a `comment` need an extra call for the comment.
   - `folder_renames`: 3 empty folders.
-- `devlog-days.json`: 13 journal cards (the 12 days plus 25 Sep, the UI/UX
-  audit day).
 
 **Check before replaying:**
 - Another session created cards on 25 Sep that are **not** in this file:
@@ -96,9 +110,8 @@ The rest (≈190 items) takes about two more days of quota.
   - In 🍳 Petit-déjeuner: 6 dated tasks.
   - Copy the 4 decisions into [`DECISIONS.md`](DECISIONS.md), or renumber
     them.
-- Pending create "🚀 Livrer la collecte de données en production" does the
-  same job as the new "Merger la collecte et déployer…" (`wdy2xh1d4y`, urgent,
-  due 25 Sep). Drop the create rather than make a duplicate.
+- The create "🚀 Livrer la collecte de données en production" was dropped on
+  25 Sep: "Merger la collecte et déployer…" (`wdy2xh1d4y`) does the same job.
 
 The emptied folders (the old pilot-hotel folder, *Plateforme & Acquisition*, and
 the empty duplicate *Check-in — Breakfast PWA* in the POS space) get renamed

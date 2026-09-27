@@ -38,7 +38,7 @@ Rebuilt 24–25 Sep 2026. Everything about Alba lives in **one folder**:
 |---|---|---|
 | **Sat 26 Sep** | Ship data collection to production (PROMPTS §1) | 🍳 |
 | Sat 26 Sep | Mistral retention answer + hotel privacy contact | 🤝 |
-| Sat 26 Sep | Open Google Play and Apple Developer accounts | 📱 |
+| Tue 29 Sep | Open Google Play and Apple Developer accounts (moved from Sat 26 Sep) | 📱 |
 | Tue 29 Sep | Book the October meeting date | 🤝 |
 | **Wed 30 Sep** | Legal file complete · decide who signs the DPA (Q1) | 🤝 📌 |
 | Fri 2 Oct | Paper test V0 with Aymard · template on the BEO task · security checks (API, first-visit allergy access) · re-check the two open field bugs | 🎪 🔒 🍳 |
@@ -55,14 +55,15 @@ Rebuilt 24–25 Sep 2026. Everything about Alba lives in **one folder**:
 | Fri 6 Nov | Kitchen voice test → Whisper or Voxtral (Q7) | 🎪 |
 | **Fri 13 Nov** | **Post-signature review** — every backlog card gets scheduled or re-dated | 🧭 🔒 |
 
-## State of the migration (26 Sep 2026, 13:23 UTC / 15:23 Paris)
+## State of the migration (27 Sep 2026, 13:35 UTC / 15:35 Paris)
 
 ClickUp's MCP limit is **100 calls a day for the whole workspace**, shared by
-every session. The next reset is **Sun 27 Sep, ~13:10 UTC** (on 26 Sep the
-limit was hit at 13:22 UTC and the server said "try again in 23h 59m", so
-allow until ~13:25). This MCP server enables **no bulk operators**, so every
-create, update and move costs one call. The rest (114 items, plus the comment calls) takes
-about two more days of quota.
+every session. On 27 Sep the limit was hit at **13:34 UTC**, after 58 calls
+from this replay (other sessions used the rest), and the server said "try
+again in 23h 57m". The next reset is **Mon 28 Sep, ~13:31 UTC**, so allow
+until ~13:35. This MCP server enables **no bulk operators**, so every create,
+update, comment and rename costs one call. What's left (72 updates, 7 of them
+with a comment, plus 3 folder renames) is **82 calls**: one more day of quota.
 
 **Done:**
 - 24 Sep: folder renamed, 6 lists created, 3 lists renamed, ~40 tasks moved in.
@@ -82,23 +83,33 @@ about two more days of quota.
   - **14 of 26 creates**: the monthly-report screen (🍳), the six 🤝 Commercial
     tasks, and in 🎪 Events the paper test, BEO template, "WFC" rename, the
     two missing screens, V1·1, V1·2 and V1·3.
+- 27 Sep replay (13:31–13:34 UTC, 58 calls landed: 2 reads, then 56 writes):
+  - **The last 12 creates**: V1·4, V1·5, V1·6 and the kitchen voice test (🎪),
+    the six 📱 App tasks, the logo and the demo video (🌐). The two
+    store-account tasks were due Sat 26 Sep and landed re-dated to
+    **Tue 29 Sep**.
+  - **16 decision cards**, D33–D48, in 📌 Décisions: `accepted`, D33–D44 due
+    25 Sep and D45–D48 due 26 Sep. Same format as D1–D32: name
+    "D<n> · <the bold line>", description "**Decision (date):** … / **Why:** …
+    / **Source:** … · DECISIONS.md".
+  - **All 13 journal cards** in 📓 Journal de dev (`completed`, due the day;
+    9 Aug on Mon 10 Aug). `devlog-days.json` is now empty.
+  - **14 of 86 updates**: the Q5 and Q6 comments, then the first 12 entries
+    in the file, `86ba484mh` through `86ba484nj` (among them the re-date to
+    Tue 29 Sep, with its comment, of the task that now books the October
+    meeting).
 
 **Still pending**, recorded in [`clickup-sync/`](clickup-sync/), in replay
 order:
 
 - `clickup-pending.json`:
-  - `decision_creates`: none left.
-  - `moves`: none left.
-  - `creates`: 12 (V1·4, V1·5, V1·6, the kitchen voice test, the six 📱 App
-    tasks, the logo and the demo video). The two store-account tasks are
-    dated Sat 26 Sep: re-date them if they're still not done when they land.
-- `devlog-days.json`: all 13 journal cards (the 12 days plus 25 Sep, the
-  UI/UX audit day). Status `completed`, due the day. 9 Aug was a Sunday, so
-  that card is due Mon 10 Aug, as with D11.
-- `clickup-pending.json`, continued:
-  - `updates`: 86 date/status changes. Q5 and Q6 are left with only their
-    comment. Entries with a `comment` need an extra call for the comment.
-  - `folder_renames`: 3 empty folders.
+  - `decision_creates`, `moves`, `creates`: none left.
+  - `updates`: 72 date/status changes, starting at `wdy2xgv8xr` (the first
+    one refused on 27 Sep). 7 entries have a `comment`, which needs an
+    extra call: 79 calls.
+  - `folder_renames`: 3 empty folders (3 calls).
+- `devlog-days.json`: none left. There is no journal card yet for 26 Sep
+  (the D45–D48 day); add it there or create it directly.
 
 **Check before replaying:**
 - Another session created cards on 25 Sep that are **not** in this file:

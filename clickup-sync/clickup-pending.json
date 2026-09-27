@@ -14,79 +14,6 @@
  "moves": [],
  "updates": [
   [
-   "86ba484mh",
-   {
-    "due": "2026-10-23"
-   }
-  ],
-  [
-   "86ba484kd",
-   {
-    "due": "2026-10-09"
-   }
-  ],
-  [
-   "86ba484hy",
-   {
-    "due": "2026-09-29",
-    "comment": "Re-daté : sert maintenant à fixer la date du rendez-vous d'octobre."
-   }
-  ],
-  [
-   "86babyt8g",
-   {
-    "due": "2026-10-23"
-   }
-  ],
-  [
-   "86ba4850v",
-   {
-    "due": "2026-11-27"
-   }
-  ],
-  [
-   "86ba484z1",
-   {
-    "due": "2026-11-13"
-   }
-  ],
-  [
-   "86ba484wr",
-   {
-    "due": "2026-11-13"
-   }
-  ],
-  [
-   "86ba484vq",
-   {
-    "due": "2026-11-13"
-   }
-  ],
-  [
-   "86ba484uh",
-   {
-    "due": "2026-11-13"
-   }
-  ],
-  [
-   "86ba484tm",
-   {
-    "due": "2026-11-13"
-   }
-  ],
-  [
-   "86ba484qy",
-   {
-    "due": "2026-11-13"
-   }
-  ],
-  [
-   "86ba484nj",
-   {
-    "due": "2026-11-13"
-   }
-  ],
-  [
    "wdy2xgv8xr",
    {
     "due": "2026-11-13"
@@ -235,12 +162,6 @@
    }
   ],
   [
-   "86babzz36",
-   {
-    "comment": "Le nom est tranché : Alba (14/08, D1). Restent domaine et prix affiché (Q5)."
-   }
-  ],
-  [
    "86babyt8e",
    {
     "due": "2026-10-31"
@@ -250,12 +171,6 @@
    "86babyt7n",
    {
     "due": "2026-10-31"
-   }
-  ],
-  [
-   "86baby7c6",
-   {
-    "comment": "Grille de base décidée le 14/08 (D3). Reste : prix Events et add-ons (Q6)."
    }
   ],
   [
@@ -553,91 +468,6 @@
    "🗄️ (doublon vide) Check-in — voir Imarketin › 🌅 Alba"
   ]
  ],
- "creates": [
-  {
-   "list": "EVT",
-   "name": "🧱 V1·4 Statut + activité",
-   "due": "2026-10-21",
-   "priority": "high",
-   "desc": ""
-  },
-  {
-   "list": "EVT",
-   "name": "🧱 V1·5 Inscription, invitation, rôles par défaut",
-   "due": "2026-10-23",
-   "priority": "high",
-   "desc": "Pas d’interrupteurs par personne en V1 (D21)."
-  },
-  {
-   "list": "EVT",
-   "name": "🧱 V1·6 Détection des contradictions du BEO",
-   "due": "2026-10-28",
-   "priority": "high",
-   "desc": "Le test : retrouver les 3 heures de la Lunch Box."
-  },
-  {
-   "list": "EVT",
-   "name": "🎙️ Test reconnaissance vocale en cuisine — Whisper vs Voxtral",
-   "due": "2026-11-06",
-   "priority": "normal",
-   "desc": "30 phrases réelles, nombres/heures/allergènes 30/30, < 2 s. V1.md. Décide Q7."
-  },
-  {
-   "list": "APP",
-   "name": "🤖 Ouvrir le compte Google Play Console (Personal)",
-   "due": "2026-09-26",
-   "priority": "high",
-   "desc": "https://play.google.com/console/signup — 25 $ une fois."
-  },
-  {
-   "list": "APP",
-   "name": "🍎 Ouvrir le compte Apple Developer (Individual)",
-   "due": "2026-09-26",
-   "priority": "high",
-   "desc": "https://developer.apple.com/programs/enroll/ — 99 €/an, nom légal exact de la pièce d’identité."
-  },
-  {
-   "list": "APP",
-   "name": "📲 PWA installable — manifest, service worker, icônes",
-   "due": "2026-10-23",
-   "priority": "normal",
-   "desc": "SHIPPING.md étape 1. Le premier hôtel peut démarrer après."
-  },
-  {
-   "list": "APP",
-   "name": "🪟 Barres translucides, zones sûres, retour par balayage",
-   "due": "2026-10-23",
-   "priority": "normal",
-   "desc": "SHIPPING.md étape 2."
-  },
-  {
-   "list": "APP",
-   "name": "📦 Capacitor + push natif + fiches store",
-   "due": "2026-11-13",
-   "priority": "normal",
-   "desc": "SHIPPING.md étape 4."
-  },
-  {
-   "list": "APP",
-   "name": "👥 Inscrire 12 testeurs Android (14 jours)",
-   "due": "2026-11-20",
-   "priority": "normal",
-   "desc": "Règle Google pour les comptes personnels."
-  },
-  {
-   "list": "SITE",
-   "name": "✒️ Logo Alba — wordmark, une heure",
-   "due": "2026-10-09",
-   "priority": "normal",
-   "desc": "Pas d’icône, pas de mascotte."
-  },
-  {
-   "list": "SITE",
-   "name": "🎬 Vidéo démo — 4 minutes, écran + ma voix",
-   "due": "2026-10-17",
-   "priority": "normal",
-   "desc": "Moche et publiée vaut mieux que belle et en attente."
-  }
- ],
+ "creates": [],
  "decision_creates": []
 }

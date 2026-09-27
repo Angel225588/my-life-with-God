@@ -50,6 +50,7 @@ Or read it locally: `git clone` the repo, then
 | [`ALBA-EVENTS.md`](ALBA-EVENTS.md) | The BEO problem — module two, and how to pitch it in October | **Before October** |
 | [`PROMPTS.md`](PROMPTS.md) | Copy-paste prompts for the Alba codebase session | **Whenever building** |
 | [`PRODUCTION.md`](PRODUCTION.md) | 5 tasks to get Alba sellable, with prompts to paste | **This week** |
+| [`ACQUISITION.md`](ACQUISITION.md) | The site, the founder videos, one Alba, the director view — and the order | **This week** |
 | [`DECISIONS.md`](DECISIONS.md) | Every Alba decision, and the open questions with a date | **Before re-arguing anything** |
 | [`SCREENS.md`](SCREENS.md) | Why each screen exists, and why voice lives only in the Alba chat | **Before adding a screen** |
 | [`V1.md`](V1.md) | The 11 screens we build first, and the voice test | **Before building** |

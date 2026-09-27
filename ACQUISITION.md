@@ -89,9 +89,14 @@ fighting the voice. Subtitles always (people watch muted).
 > Des équipes sereines, des clients qui le sentent. Je viens vous la montrer
 > dans votre hôtel.
 
-**Shooting kit:** your phone on a small tripod, a clip-on microphone, window
-light. Demo data on every screen. Written OK from the hotel before filming
-anywhere in it; no guest, no badge, no logo in frame.
+**Where (owner, 28 Sep):** a quiet hotel room. Nothing in frame that names the
+hotel (no logo on the pillows, notepads, key cards, the view from the window),
+and the hotel's OK to film in the room.
+
+**Shooting kit:** your phone on a small tripod at eye level, a clip-on
+microphone, window light from the side (turn the room lights off), the bed and
+the window behind you rather than a wall. Demo data on every screen. Record the
+screens separately (screen recording on the phone) and cut them in.
 
 ## 3. One Alba — merging the breakfast app and the events app
 
@@ -168,6 +173,5 @@ listing a director can find. **Start the paperwork now**, the code is ready for 
 ## Decisions still open
 
 1. Domain (28 Sep).
-2. Film where? (The partner hotel with written OK, or a neutral room.)
-3. Staff phone numbers in the merged app: off by default (recommended).
-4. The price model, with finance (Q6).
+2. Staff phone numbers in the merged app: off by default (recommended).
+3. The price model, with finance (Q6).

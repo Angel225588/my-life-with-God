@@ -52,9 +52,10 @@ videos. Not a copy of either.
   client screenshot either).
 - Vercel Analytics, no cookies banner needed without trackers.
 
-**Decisions for you (Q5):** the domain (`alba.app`? `getalba.com`? `alba-hotel.fr`?),
-and whether the price shows. Recommendation: show *"from €… per month, per hotel"*
-once the October price is set; until then, *"selon la taille de l'hôtel"*.
+**Decided (D52):** no price on the site. One contract per company (a hotel or a
+group), many users under one subscription; the model (per property, per group,
+per user) is a calculation to do with finance. The site says *« un hôtel
+parisien »*. Domain picked on 28 Sep.
 
 ## 2. The videos — the founder, like a model launch
 
@@ -153,9 +154,20 @@ store. That needs the DPA (D9, Q1). So:
 | October meeting | Show the director view and the monthly report · ask for the DPA and the price |
 | After the DPA | Shared database, real director view, merge steps 3–8 |
 
-## Decisions needed from you
+## 6. App Store and Play Store (D52: required)
 
-1. Domain, and price on the site or not (Q5).
-2. Okay to say *"a Paris hotel"* publicly (already used on imarketin.com).
-3. Film where? (The partner hotel with written OK, or a neutral room.)
-4. Staff phone numbers in the merged app: off by default (recommended).
+Same code, wrapped with Capacitor (`SHIPPING.md`): reliable notifications and a
+listing a director can find. **Start the paperwork now**, the code is ready for it:
+- Apple Developer, **company** account (99 €/year). Needs a D-U-N-S number for the
+  company: free, but days to two weeks. Google Play: 25 € once.
+- Apple review needs: a privacy policy URL (the site's Légal page), in-app account
+  deletion, a demo login for the reviewer, and the AI disclosure already in the app.
+- Store listings go live after the site; push notifications need the shared
+  server, so after the DPA.
+
+## Decisions still open
+
+1. Domain (28 Sep).
+2. Film where? (The partner hotel with written OK, or a neutral room.)
+3. Staff phone numbers in the merged app: off by default (recommended).
+4. The price model, with finance (Q6).

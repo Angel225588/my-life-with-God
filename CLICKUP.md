@@ -55,15 +55,16 @@ Rebuilt 24–25 Sep 2026. Everything about Alba lives in **one folder**:
 | Fri 6 Nov | Kitchen voice test → Whisper or Voxtral (Q7) | 🎪 |
 | **Fri 13 Nov** | **Post-signature review** — every backlog card gets scheduled or re-dated | 🧭 🔒 |
 
-## State of the migration (27 Sep 2026, 13:35 UTC / 15:35 Paris)
+## State of the migration (28 Sep 2026, 13:45 UTC / 15:45 Paris)
+
+**The replay is finished.** Nothing is left in `clickup-sync/`.
 
 ClickUp's MCP limit is **100 calls a day for the whole workspace**, shared by
-every session. On 27 Sep the limit was hit at **13:34 UTC**, after 58 calls
-from this replay (other sessions used the rest), and the server said "try
-again in 23h 57m". The next reset is **Mon 28 Sep, ~13:31 UTC**, so allow
-until ~13:35. This MCP server enables **no bulk operators**, so every create,
-update, comment and rename costs one call. What's left (72 updates, 7 of them
-with a comment, plus 3 folder renames) is **82 calls**: one more day of quota.
+every session. This MCP server enables **no bulk operators**, so every create,
+update, comment and rename costs one call. On 28 Sep this replay used
+**87 calls** (13:41–13:45 UTC), so at most 13 are left for other sessions
+today. The quota resets about 24 h after the day's first call: next reset
+**Tue 29 Sep, ~13:30–13:40 UTC**.
 
 **Done:**
 - 24 Sep: folder renamed, 6 lists created, 3 lists renamed, ~40 tasks moved in.
@@ -98,20 +99,27 @@ with a comment, plus 3 folder renames) is **82 calls**: one more day of quota.
     in the file, `86ba484mh` through `86ba484nj` (among them the re-date to
     Tue 29 Sep, with its comment, of the task that now books the October
     meeting).
+- 28 Sep replay (13:41–13:45 UTC, 87 calls, all succeeded):
+  - **The last 72 updates** (`wdy2xgv8xr` through `wdy2xgxfj1`) and their
+    **7 comments**: backlog re-dated to Fri 13 Nov, the rest to their
+    calendar dates, 6 cards marked `completed` or `Closed`.
+  - **The 3 folder renames**: the emptied folders are now "🗄️ (vide) …" /
+    "🗄️ (doublon vide) …".
+  - **Two journal cards** in 📓 Journal de dev (`completed`, due the day):
+    26 Sep (D45–D48: real BEOs read with Mistral, the Moment screen,
+    « Salle prête », swiping days, the « Parler à Alba » voice screens) and
+    27 Sep (D49–D51: Claude brain with skills, dictation mic, compliance
+    loop, Légal page, the ElevenLabs call, hotel rules by talking to Alba,
+    7-day chat memory, the call as a chip with spoken « c'est ça », Savoir
+    de l'hôtel, the acquisition plan).
+  - **The 14 Aug journal card** now names the objection-handling file only
+    as "le fichier du groupe hôtelier" (no brand name on ClickUp).
 
-**Still pending**, recorded in [`clickup-sync/`](clickup-sync/), in replay
-order:
+**Still pending:** nothing. `clickup-pending.json` and `devlog-days.json` are
+empty. No journal card yet for 28 Sep (D52): add it at the end of today's
+session.
 
-- `clickup-pending.json`:
-  - `decision_creates`, `moves`, `creates`: none left.
-  - `updates`: 72 date/status changes, starting at `wdy2xgv8xr` (the first
-    one refused on 27 Sep). 7 entries have a `comment`, which needs an
-    extra call: 79 calls.
-  - `folder_renames`: 3 empty folders (3 calls).
-- `devlog-days.json`: none left. There is no journal card yet for 26 Sep
-  (the D45–D48 day); add it there or create it directly.
-
-**Check before replaying:**
+**Check:**
 - Another session created cards on 25 Sep that are **not** in this file:
   - In 📌 Décisions: 4 unnumbered decisions ("La collecte part avant l'écran",
     "Aucune valeur par défaut pour ce qui fonde le rapport", "Un paiement
@@ -126,8 +134,8 @@ order:
 
 The emptied folders (the old pilot-hotel folder, *Plateforme & Acquisition*, and
 the empty duplicate *Check-in — Breakfast PWA* in the POS space) get renamed
-"🗄️ (vide) …", not deleted. Delete them yourself once you've checked. Their
-renames are still pending.
+"🗄️ (vide) …", not deleted. They were renamed on 28 Sep. Delete them yourself
+once you've checked.
 
 ## Still valid from the 14 Aug plan — not built yet
 

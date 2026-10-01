@@ -52,6 +52,7 @@ Or read it locally: `git clone` the repo, then
 | [`PRODUCTION.md`](PRODUCTION.md) | 5 tasks to get Alba sellable, with prompts to paste | **This week** |
 | [`ACQUISITION.md`](ACQUISITION.md) | The site, the founder videos, one Alba, the director view — and the order | **This week** |
 | [`CONTRACT.md`](CONTRACT.md) | Ready to sign: the contract, the DPA, the CSE note, what we still need | **Before the October meeting** |
+| [`DIRECTION.md`](DIRECTION.md) | The October meeting: the legal deck and the director's screen (breakfast + events + Alba) | **Before 13 Oct** |
 | [`DECISIONS.md`](DECISIONS.md) | Every Alba decision, and the open questions with a date | **Before re-arguing anything** |
 | [`SCREENS.md`](SCREENS.md) | Why each screen exists, and why voice lives only in the Alba chat | **Before adding a screen** |
 | [`V1.md`](V1.md) | The 11 screens we build first, and the voice test | **Before building** |

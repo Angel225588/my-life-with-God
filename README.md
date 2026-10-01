@@ -20,9 +20,9 @@ that decides my calendar.
 
 That is the whole business right now. Everything else is parked, not dead.
 
-**Alba** (dawn) is the product formerly called check-in. Live at a Marriott
+**Alba** (dawn) is the product formerly called check-in. Live at an international-brand
 property every day since March. See [`BRAND.md`](BRAND.md) and
-[`MARRIOTT.md`](MARRIOTT.md).
+[`FLAGSHIP.md`](FLAGSHIP.md).
 
 ## Where these files live
 
@@ -44,7 +44,7 @@ Or read it locally: `git clone` the repo, then
 | [`SCOREBOARD.md`](SCOREBOARD.md) | The numbers I'm allowed to care about | Every Friday |
 | [`PARKED.md`](PARKED.md) | Raizane, Vox, POD — and exactly when each wakes up | When I'm tempted |
 | [`IDEAS.md`](IDEAS.md) | Where new ideas go so they don't hijack today | Whenever one hits |
-| [`MARRIOTT.md`](MARRIOTT.md) | The €149 objection and how to answer it | **Before October** |
+| [`FLAGSHIP.md`](FLAGSHIP.md) | The €149 objection and how to answer it | **Before October** |
 | [`REPORT.md`](REPORT.md) | What the monthly report can honestly measure | **Before October** |
 | [`BEO-ANALYSIS.md`](BEO-ANALYSIS.md) | What the real BEO taught us — the contradiction feature | **Before October** |
 | [`ALBA-EVENTS.md`](ALBA-EVENTS.md) | The BEO problem — module two, and how to pitch it in October | **Before October** |

@@ -146,7 +146,7 @@ lies; an invoice produces the truth.
 > standard 6× onboarding ratio. They are the numbers to pick when you have *no
 > proof* and need someone, anyone, to say yes.
 >
-> I have proof. Marriott runs this daily. Price like it.
+> I have proof. The flagship hotel runs this daily. Price like it.
 
 ---
 
@@ -165,13 +165,13 @@ Three levers:
 2. **Raise ARPU with a second module** once 15+ properties are live — whatever
    customers ask for most (housekeeping, incidents, stock, shift notes).
 3. **Groups are worth 5 singles for the same effort.** One 6-property chain is
-   ~18% of the goal from a single relationship. **This is the Marriott lever.**
+   ~18% of the goal from a single relationship. **This is the flagship hotel lever.**
 
 **The realistic path:**
 
 | Milestone | By | Live properties | MRR |
 |---|---|---|---|
-| Marriott invoicing | Oct 2026 | 1 | €299 |
+| The flagship hotel invoicing | Oct 2026 | 1 | €299 |
 | Founding 5 done | Nov 2026 | 5 | ~€900 |
 | Proof it repeats | Feb 2027 | 12 | ~€2,000 |
 | Half way | Apr 2027 | 16 | ~€2,700 |
@@ -184,7 +184,7 @@ I've been keeping.
 > Note: 5K gross is not 5K in my pocket. Taxes, tools, and hosting come out
 > first. Write down the number I actually need to live on, and target *that*.
 
-### The Marriott asset
+### The flagship hotel asset
 
 A global brand runs their daily breakfast service on my software. Most founders
 never get this. It's worth more than the next 40 cold calls, and it's fragile —
@@ -205,23 +205,23 @@ Nothing else in the first two weeks beats these four.
 
 ## 6. The 90-day arc
 
-### Days 1–14 — Bank the Marriott asset, then open doors (14–27 Aug)
+### Days 1–14 — Bank the flagship hotel asset, then open doors (14–27 Aug)
 
 In strict order. Nothing below moves until the one above it is done.
 
-1. **Pull Marriott's usage data.** Months of live production data I have never
+1. **Pull the flagship hotel's usage data.** Months of live production data I have never
    once looked at. Covers processed, days of continuous use, and above all the
    **entitled-vs-attended delta** — the leakage number.
 2. **Build the monthly value report.** *"What Alba did for you"* — one page,
    automatic: covers processed, staff hours saved, covers served that weren't on
-   the list and what they cost. Full reasoning in [`MARRIOTT.md`](MARRIOTT.md).
+   the list and what they cost. Full reasoning in [`FLAGSHIP.md`](FLAGSHIP.md).
    **This is the only thing I'm allowed to build this fortnight**, and it isn't
    really a feature — it's the answer to *"too expensive for its value,"* for
    every customer, forever.
 3. **Fix the two security tasks** already in the backlog: lock `/api/*`, and get
    the Gemini DPA + Supabase RLS done. EU guest data. Non-negotiable before
    selling to anyone else.
-4. **Talk to Marriott's F&B manager and breakfast supervisor** — the people who
+4. **Talk to the flagship hotel's F&B manager and breakfast supervisor** — the people who
    actually use it — before going back to the director.
 5. **Go back to the director with the report.** Then the terms, in writing, before
    October. Then name permission, testimonial, introductions.
@@ -235,7 +235,7 @@ In strict order. Nothing below moves until the one above it is done.
 10. **Walk into 20 of them**, 10am–noon, when service is done and the manager can
     actually breathe.
 
-Goal: **Marriott priced and signed + 1 new paying customer.**
+Goal: **The flagship hotel priced and signed + 1 new paying customer.**
 
 > Note the reorder: the value report moved ahead of the logo and the landing
 > page. A director just told me he can't see the value. Building the thing that

@@ -13,9 +13,9 @@ questions have a date by which they get decided.
 | # | Date | Decision | Why | Source |
 |---|---|---|---|---|
 | D1 | 14 Aug | **The product is called Alba.** Closed, not reopened. | "Check-in" already means something else in hotels; Alba grows into full operations without a rename. | `BRAND.md` |
-| D2 | 14 Aug | **The pilot hotel's brand is never named in public** without written permission. Public line: *"an international hotel brand runs their breakfast service on this every day."* | Using a global brand without permission loses the account and invites a letter. | `MARRIOTT.md` |
+| D2 | 14 Aug | **The pilot hotel's brand is never named in public** without written permission. Public line: *"an international hotel brand runs their breakfast service on this every day."* | Using a global brand without permission loses the account and invites a letter. | `FLAGSHIP.md` |
 | D3 | 14 Aug | **Price list:** Small €99 · Standard €179 · Branded €299 · Group €149/property; setup €400 / €700 / €1,200. Founding 5: −40 % for 24 months. Founding customers pay. | Priced off value delivered, not nerve. Free pilots produce polite lies. | `LIFE-PLAN.md` §4 |
-| D4 | 14 Aug | **The €149 objection is answered by measuring, not by discounting.** Trade, don't drop: €129 annual prepay for a case study + two introductions. Floor €99, only with both. Never €49. | "Too expensive for its value" is a measurement problem. | `MARRIOTT.md` |
+| D4 | 14 Aug | **The €149 objection is answered by measuring, not by discounting.** Trade, don't drop: €129 annual prepay for a case study + two introductions. Floor €99, only with both. Never €49. | "Too expensive for its value" is a measurement problem. | `FLAGSHIP.md` |
 | D5 | 14 Aug | **No new products for 90 days.** Raizane, Vox, POD are parked with written wake-up conditions. | Building is where I hide from selling. | `LIFE-PLAN.md`, `PARKED.md` |
 | D6 | 14 Aug | **The monthly value report comes before the logo and the landing page.** | A director said he can't see the value. Show it before decorating it. | `LIFE-PLAN.md` §6 |
 | D7 | 14 Aug | **Production order:** Mistral → GDPR → API lockdown → report → customisation. | 1–3 let me sell without lying about compliance. | `PRODUCTION.md` |

@@ -26,8 +26,8 @@ Never changes: the Alba wordmark, the three lines in the footer.
 
 - **One A4 page.** If it doesn't fit, cut something. Two pages is a report, and
   nobody reads a report at 4am.
-- **Never name the flagship hotel account.** No written permission — see
-  [`../MARRIOTT.md`](../MARRIOTT.md). Write "the flagship account".
+- **Never name the flagship account.** No written permission — see
+  [`../FLAGSHIP.md`](../FLAGSHIP.md). Write "the flagship account".
 - **Never fill in today's one outcome.** He writes it. A brief that decides the
   day for him is a brief he stops reading.
 - **No charts, no streaks, no motivational quotes.** One number, one priority,

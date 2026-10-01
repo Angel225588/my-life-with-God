@@ -111,7 +111,7 @@ Alba tourne sous une **micro-entreprise**. Apple ne l'accepte pas comme
   Pas de D-U-N-S.
 - **Google** : compte **Personal**. La règle des 12 testeurs / 14 jours est un non-
   problème ici : on a une équipe hôtelière qui utilise l'app tous les jours. Dès la
-  première version Android, on inscrit 12 personnes de l'équipe Marriott et le
+  première version Android, on inscrit 12 personnes de l'équipe de l'hôtel pilote et le
   compteur tourne pendant qu'on avance sur le reste.
 
 **Pas de SASU maintenant.** Ça ajoute un comptable et des frais fixes avant le

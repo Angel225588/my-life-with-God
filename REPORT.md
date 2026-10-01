@@ -1,6 +1,6 @@
 # The monthly report — what to actually measure
 
-> **Correction to what I wrote in August.** `LIFE-PLAN.md` and `MARRIOTT.md`
+> **Correction to what I wrote in August.** `LIFE-PLAN.md` and `FLAGSHIP.md`
 > originally built the value case on *"covers served that weren't on the entitled
 > list, at €18 each."* **Alba cannot see that.** Payments live in Micros, and
 > anyone eating who was never on the list is invisible to us.

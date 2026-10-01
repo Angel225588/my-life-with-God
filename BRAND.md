@@ -65,6 +65,6 @@ cap the company at one feature.
 
 Then close this file and go sell.
 
-> Marriott is already using the product under the old name. Renaming is fine and
+> The flagship hotel is already using the product under the old name. Renaming is fine and
 > normal — just tell them once, plainly, before the October invoice so the name
 > on the invoice matches the name they know.

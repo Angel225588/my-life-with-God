@@ -1,4 +1,4 @@
-# Marriott — the €149 objection
+# The flagship hotel — the €149 objection
 
 > ## ⚠️ NO PERMISSION TO USE THE NAME. Confirmed 14 Aug 2026.
 >
@@ -16,8 +16,8 @@
 > solo founder loses the account *and* gets a letter. Not worth it for a
 > landing-page logo.
 >
-> Also: this repo names them throughout. **Keep it private.** If it's ever made
-> public, scrub the name first.
+> The name was removed from this repo on 1 Oct 2026 (this file was renamed). It
+> is still in the git history: make the repo private, or rewrite the history.
 
 **Situation:** They run Alba every day. Quoted €149/month. The director said
 *"too expensive for its value."* Payment starts October.
@@ -36,13 +36,13 @@ and they have opposite solutions.
 He didn't say the price was wrong. He said he can't see what he's getting for it.
 Those are solved in opposite directions, and dropping the price solves neither —
 it just teaches him the €149 was never real, and every future customer will
-eventually learn what Marriott pays.
+eventually learn what the flagship hotel pays.
 
 **Two facts to hold onto before doing anything:**
 
 1. **They use it every day.** Nobody uses a tool daily that has no value. The
    value is real. It has simply never been counted in front of him.
-2. **€149/month at a Marriott property is less than one room-night.** Their
+2. **€149/month at an international-brand property is less than one room-night.** Their
    breakfast service earns that back before 8am. The number is not the problem.
 
 Also: €149 is the **Standard tier** in my own price list, and by covers per day
@@ -170,7 +170,7 @@ founders would pay for. From the database:
 > - `Z` covers served that weren't on the entitled list — **at €18 each, €N**
 
 This is the exception to *"only build what a paying customer asked for."* It's
-not a feature, it's the **argument**. And it keeps working after Marriott:
+not a feature, it's the **argument**. And it keeps working after the flagship hotel:
 
 - It's the answer to this objection, for every customer, forever
 - It's the retention mechanism — nobody cancels a tool that emails them a number
@@ -230,7 +230,7 @@ prospect eventually finds out what the flagship pays.
 
 - [ ] Get it **in writing.** A live production customer with no signed terms is a
       risk, not an asset.
-- [ ] Written permission to use the Marriott name in marketing. Until it exists:
+- [ ] Written permission to use the brand's name in marketing. Until it exists:
       *"an international hotel brand."*
 - [ ] A two-line testimonial from someone who uses it daily.
 - [ ] The introduction — other properties in the region, and whoever sits above
